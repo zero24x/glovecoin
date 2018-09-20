@@ -1,0 +1,9 @@
+Building HotshotCoin
+
+See doc/readme-qt.rst for instructions on building HotshotCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of HotshotCoin.
+
+See doc/build-*.txt for instructions on building hotshotcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of HotshotCoin.

@@ -10,6 +10,8 @@ Block time: 3 Minutes
  
 Masternodes: No  
 
+Ports: P2P 48300, RPC 48310
+
 Mining: PoW+PoS until block 43200 (about 3 months), after that PoS only  
 
 Coinbase maturity: 10 Blocks  
@@ -23,7 +25,6 @@ Recommended confirmations: 10 Blocks
 Premine: 4 000 000  
 
 Max supply: 200 000 000  
-
 
 ## PoW Block rewards
 

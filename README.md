@@ -13,7 +13,7 @@ Recommended confirmations: 10 Blocks
 Premine: 4 000 000
 Max supply: 200 000 000
 
-PoW Block rewards:
+## PoW Block rewards
 
 | Block | Reward |
 |-------|-----|
@@ -22,7 +22,7 @@ PoW Block rewards:
 |5,001-10,000 | 10 |
 |10,001-43,200 | 0.00004 |
 
-PoS Block rewards: 
+## PoS Block rewards: 
 
 | Block | APR |
 |-------|-----|

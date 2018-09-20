@@ -10,7 +10,7 @@ Block time: 3 Minutes
  
 Masternodes: No  
 
-Ports: P2P 48300, RPC 48310
+Ports: P2P 22063, RPC 22073
 
 Mining: PoW+PoS until block 43200 (about 3 months), after that PoS only  
 

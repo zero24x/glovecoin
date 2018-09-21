@@ -15,9 +15,11 @@
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
+Copyright © 2018 The ShardCoin developers
 Copyright © 2018 The HotshotCoin developers</source>
         <translation>Copyright © 2009-2014 De Bitcoin ontwikkelaars
 Copyright © 2012-2014 De NovaCoin ontwikkelaars
+Copyright © 2018 De ShardCoin ontwikkelaars
 Copyright © 2018 De HotshotCoin ontwikkelaars</translation>
     </message>
     <message>

@@ -948,13 +948,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\HotshotCoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\HotshotCoin
-    // Mac: ~/Library/Application Support/HotshotCoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\HotShotCoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\HotShotCoin
+    // Mac: ~/Library/Application Support/HotShotCoin
     // Unix: ~/.hotshotcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "HotshotCoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "HotShotCoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -966,7 +966,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "HotshotCoin";
+    return pathRet / "HotShotCoin";
 #else
     // Unix
     return pathRet / ".hotshotcoin";

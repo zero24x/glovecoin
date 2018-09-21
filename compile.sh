@@ -13,6 +13,6 @@ i686-w64-mingw32.static-qmake-qt5 \
         BDB_LIB_PATH=$MXE_LIB_PATH/../db4.8.30.NC/lib \
         MINIUPNPC_INCLUDE_PATH=$MXE_INCLUDE_PATH \
         MINIUPNPC_LIB_PATH=$MXE_LIB_PATH \
-        QMAKE_LRELEASE=/opt/mxe/usr/i686-w64-mingw32.static/qt5/bin/lrelease HotshotCoin-qt.pro
+        QMAKE_LRELEASE=/opt/mxe/usr/i686-w64-mingw32.static/qt5/bin/lrelease HotShotCoin-qt.pro
 
 make -f Makefile.Release

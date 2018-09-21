@@ -50,7 +50,7 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("HotshotCoin version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("HotShotCoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
                   "  hotshotcoind [options]                     " + "\n" +
                   "  hotshotcoind [options] <command> [params]  " + _("Send command to -server or hotshotcoind") + "\n" +

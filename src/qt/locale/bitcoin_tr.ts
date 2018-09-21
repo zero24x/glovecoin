@@ -3,24 +3,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About HotshotCoin</source>
-        <translation>HotshotCoin Hakkında</translation>
+        <source>About HotShotCoin</source>
+        <translation>HotShotCoin Hakkında</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;HotshotCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;HotshotCoin&lt;/b&gt; versiyonu</translation>
+        <source>&lt;b&gt;HotShotCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;HotShotCoin&lt;/b&gt; versiyonu</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2018 The ShardCoin developers
-Copyright © 2018 The HotshotCoin developers</source>
+Copyright © 2018 The HotShotCoin developers</source>
         <translation>Telif Hakkı © 2009-2014 Bitcoin geliştiricileri
 Telif Hakkı © 2012-2014 NovaCoin geliştiricileri
 Telif Hakkı © 2018 ShardCoin geliştiricileri
-Telif Hakkı © 2018 HotshotCoin geliştiricileri</translation>
+Telif Hakkı © 2018 HotShotCoin geliştiricileri</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -67,8 +67,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your HotshotCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Bunlar, ödeme almak için HotshotCoin adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
+        <source>These are your HotShotCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Bunlar, ödeme almak için HotShotCoin adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -82,8 +82,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a HotshotCoin address</source>
-        <translation>Bir HotshotCoin adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
+        <source>Sign a message to prove you own a HotShotCoin address</source>
+        <translation>Bir HotShotCoin adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -97,8 +97,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified HotshotCoin address</source>
-        <translation>Mesajın, belirli bir HotshotCoin adresiyle imzalandığından emin olmak için onu doğrula</translation>
+        <source>Verify a message to ensure it was signed with a specified HotShotCoin address</source>
+        <translation>Mesajın, belirli bir HotShotCoin adresiyle imzalandığından emin olmak için onu doğrula</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -265,8 +265,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+82"/>
-        <source>HotshotCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>HotshotCoin, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
+        <source>HotShotCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>HotShotCoin, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -359,8 +359,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about HotshotCoin</source>
-        <translation>HotshotCoin hakkındaki bilgiyi göster</translation>
+        <source>Show information about HotShotCoin</source>
+        <translation>HotShotCoin hakkındaki bilgiyi göster</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -399,13 +399,13 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a HotshotCoin address</source>
-        <translation>Bir HotshotCoin adresine coin gönder</translation>
+        <source>Send coins to a HotShotCoin address</source>
+        <translation>Bir HotShotCoin adresine coin gönder</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for HotshotCoin</source>
-        <translation>HotshotCoin yapılandırma seçeneklerini değiştir</translation>
+        <source>Modify configuration options for HotShotCoin</source>
+        <translation>HotShotCoin yapılandırma seçeneklerini değiştir</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -445,8 +445,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>HotshotCoin</source>
-        <translation>HotshotCoin</translation>
+        <source>HotShotCoin</source>
+        <translation>HotShotCoin</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -455,8 +455,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About HotshotCoin</source>
-        <translation>HotshotCoin &amp;Hakkında</translation>
+        <source>&amp;About HotShotCoin</source>
+        <translation>HotShotCoin &amp;Hakkında</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -507,13 +507,13 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>HotshotCoin client</source>
-        <translation>HotshotCoin istemcisi</translation>
+        <source>HotShotCoin client</source>
+        <translation>HotShotCoin istemcisi</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to HotshotCoin network</source>
-        <translation><numerusform>HotshotCoin ağına %n etkin bağlantı</numerusform><numerusform>HotshotCoin ağına %n etkin bağlantı</numerusform></translation>
+        <source>%n active connection(s) to HotShotCoin network</source>
+        <translation><numerusform>HotShotCoin ağına %n etkin bağlantı</numerusform><numerusform>HotShotCoin ağına %n etkin bağlantı</numerusform></translation>
     </message>
     <message>
         <location line="+6"/>
@@ -602,8 +602,8 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid HotshotCoin address or malformed URI parameters.</source>
-        <translation>URI ayrıştırılamadı! Bu, geçersiz bir HotshotCoin adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid HotShotCoin address or malformed URI parameters.</source>
+        <translation>URI ayrıştırılamadı! Bu, geçersiz bir HotShotCoin adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -725,8 +725,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. HotshotCoin can no longer continue safely and will quit.</source>
-        <translation>Önemli bir hata oluştu. HotshotCoin artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
+        <source>A fatal error occurred. HotShotCoin can no longer continue safely and will quit.</source>
+        <translation>Önemli bir hata oluştu. HotShotCoin artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
     </message>
 </context>
 <context>
@@ -1001,8 +1001,8 @@ Adres: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid HotshotCoin address.</source>
-        <translation>Girilen %1 adresi, geçerli bir HotshotCoin adresi değildir.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid HotShotCoin address.</source>
+        <translation>Girilen %1 adresi, geçerli bir HotShotCoin adresi değildir.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1020,8 +1020,8 @@ Adres: %4
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>HotshotCoin-Qt</source>
-        <translation>HotshotCoin-Qt</translation>
+        <source>HotShotCoin-Qt</source>
+        <translation>HotShotCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1093,13 +1093,13 @@ Adres: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start HotshotCoin after logging in to the system.</source>
-        <translation>Sisteme giriş yaptıktan sonra HotshotCoin&apos;i otomatik olarak başlat</translation>
+        <source>Automatically start HotShotCoin after logging in to the system.</source>
+        <translation>Sisteme giriş yaptıktan sonra HotShotCoin&apos;i otomatik olarak başlat</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start HotshotCoin on system login</source>
-        <translation>Sisteme girişte HotshotCoin&apos;i &amp;başlat</translation>
+        <source>&amp;Start HotShotCoin on system login</source>
+        <translation>Sisteme girişte HotShotCoin&apos;i &amp;başlat</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1108,8 +1108,8 @@ Adres: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the HotshotCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönelticide HotshotCoin istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
+        <source>Automatically open the HotShotCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönelticide HotShotCoin istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1138,7 +1138,7 @@ Adres: %4
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the HotshotCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the HotShotCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1183,8 +1183,8 @@ Adres: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting HotshotCoin.</source>
-        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, HotshotCoin yeniden başlatıldığında etkin olacaktır.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting HotShotCoin.</source>
+        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, HotShotCoin yeniden başlatıldığında etkin olacaktır.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1240,8 +1240,8 @@ Adres: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting HotshotCoin.</source>
-        <translation>Bu ayar, HotshotCoin&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
+        <source>This setting will take effect after restarting HotShotCoin.</source>
+        <translation>Bu ayar, HotShotCoin&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1259,8 +1259,8 @@ Adres: %4
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HotshotCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak HotshotCoin ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HotShotCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak HotShotCoin ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1503,8 +1503,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the HotshotCoin-Qt help message to get a list with possible HotshotCoin command-line options.</source>
-        <translation>Muhtemel HotshotCoin komut satırı seçeneklerinin bir listesini getirmek için HotshotCoin-Qt yardım mesajını göster</translation>
+        <source>Show the HotShotCoin-Qt help message to get a list with possible HotShotCoin command-line options.</source>
+        <translation>Muhtemel HotShotCoin komut satırı seçeneklerinin bir listesini getirmek için HotShotCoin-Qt yardım mesajını göster</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1523,13 +1523,13 @@ Adres: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>HotshotCoin - Debug window</source>
-        <translation>HotshotCoin - Hata ayıklama penceresi</translation>
+        <source>HotShotCoin - Debug window</source>
+        <translation>HotShotCoin - Hata ayıklama penceresi</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>HotshotCoin Core</source>
-        <translation>HotshotCoin Core</translation>
+        <source>HotShotCoin Core</source>
+        <translation>HotShotCoin Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1538,8 +1538,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the HotshotCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>HotshotCoin hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
+        <source>Open the HotShotCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>HotShotCoin hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1548,8 +1548,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the HotshotCoin RPC console.</source>
-        <translation>HotshotCoin RPC konsoluna hoş geldiniz.</translation>
+        <source>Welcome to the HotShotCoin RPC console.</source>
+        <translation>HotShotCoin RPC konsoluna hoş geldiniz.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1719,8 +1719,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a HotshotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Bir HotshotCoin adresi gir (örn: DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Bir HotShotCoin adresi gir (örn: DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1814,8 +1814,8 @@ Adres: %4
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid HotshotCoin address</source>
-        <translation>UYARI: Geçersiz HotshotCoin adresi</translation>
+        <source>WARNING: Invalid HotShotCoin address</source>
+        <translation>UYARI: Geçersiz HotShotCoin adresi</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1888,8 +1888,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a HotshotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Bir HotshotCoin adresi girin (örn: DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Bir HotShotCoin adresi girin (örn: DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
 </context>
 <context>
@@ -1949,8 +1949,8 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this HotshotCoin address</source>
-        <translation>Bu HotshotCoin adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
+        <source>Sign the message to prove you own this HotShotCoin address</source>
+        <translation>Bu HotShotCoin adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1981,8 +1981,8 @@ Adres: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified HotshotCoin address</source>
-        <translation>Mesajın, belirtilen HotshotCoin adresiyle imzalandığından emin olmak için onu doğrula</translation>
+        <source>Verify the message to ensure it was signed with the specified HotShotCoin address</source>
+        <translation>Mesajın, belirtilen HotShotCoin adresiyle imzalandığından emin olmak için onu doğrula</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1992,8 +1992,8 @@ Adres: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a HotshotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Bir HotshotCoin adresi girin (örn: DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Bir HotShotCoin adresi girin (örn: DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2002,8 +2002,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter HotshotCoin signature</source>
-        <translation>HotshotCoin imzası gir</translation>
+        <source>Enter HotShotCoin signature</source>
+        <translation>HotShotCoin imzası gir</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2581,8 +2581,8 @@ Adres: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>HotshotCoin version</source>
-        <translation>HotshotCoin versiyonu</translation>
+        <source>HotShotCoin version</source>
+        <translation>HotShotCoin versiyonu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2640,7 +2640,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, konfigürasyon dosyasında bir rpcpassword belirlemelisiniz:
 %s
@@ -2651,7 +2651,7 @@ rpcpassword=%s
 Kullanıcı adı ve şifre aynı OLMAMALIDIR.
 Dosya mevcut değilse, sadece sahibi tarafından okunabilir yetkiyle yaratın.
 Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanız önerilir;
-örneğin: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alarmı&quot; admin@foo.com
+örneğin: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alarmı&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2751,8 +2751,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HotshotCoin will not work properly.</source>
-        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, HotshotCoin düzgün çalışmayacaktır.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HotShotCoin will not work properly.</source>
+        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, HotShotCoin düzgün çalışmayacaktır.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3046,8 +3046,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. HotshotCoin is shutting down.</source>
-        <translation>Başlangıç uygunluk kontrolü başarısız oldu. HotshotCoin kapatılıyor.</translation>
+        <source>Initialization sanity check failed. HotShotCoin is shutting down.</source>
+        <translation>Başlangıç uygunluk kontrolü başarısız oldu. HotShotCoin kapatılıyor.</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -3101,13 +3101,13 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of HotshotCoin</source>
-        <translation>wallet.dat yüklenirken hata: Cüzdan, daha yeni bir HotshotCoin versiyonuna ihtiyaç duyuyor.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of HotShotCoin</source>
+        <translation>wallet.dat yüklenirken hata: Cüzdan, daha yeni bir HotShotCoin versiyonuna ihtiyaç duyuyor.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart HotshotCoin to complete</source>
-        <translation>Cüzdanın yeniden yazılması gerekmektedir: Tamamlamak için HotshotCoin&apos;i yeniden başlatın</translation>
+        <source>Wallet needed to be rewritten: restart HotShotCoin to complete</source>
+        <translation>Cüzdanın yeniden yazılması gerekmektedir: Tamamlamak için HotShotCoin&apos;i yeniden başlatın</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3166,8 +3166,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. HotshotCoin is probably already running.</source>
-        <translation>Bu bilgisayarda %s bağlanamadı. HotshotCoin muhtemelen halen çalışmaktadır.</translation>
+        <source>Unable to bind to %s on this computer. HotShotCoin is probably already running.</source>
+        <translation>Bu bilgisayarda %s bağlanamadı. HotShotCoin muhtemelen halen çalışmaktadır.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3196,8 +3196,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. HotshotCoin is probably already running.</source>
-        <translation>Veri klasörü %s üzerinde kilit elde edilemedi. HotshotCoin muhtemelen halen çalışmaktadır.</translation>
+        <source>Cannot obtain a lock on data directory %s. HotShotCoin is probably already running.</source>
+        <translation>Veri klasörü %s üzerinde kilit elde edilemedi. HotShotCoin muhtemelen halen çalışmaktadır.</translation>
     </message>
     <message>
         <location line="+4"/>

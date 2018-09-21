@@ -3,20 +3,20 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About HotshotCoin</source>
-        <translation>O HotshotCoin</translation>
+        <source>About HotShotCoin</source>
+        <translation>O HotShotCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;HotshotCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;HotshotCoin&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;HotShotCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;HotShotCoin&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2018 The ShardCoin developers
-Copyright © 2018 The HotshotCoin developers</source>
+Copyright © 2018 The HotShotCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -59,8 +59,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your HotshotCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši HotshotCoin naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
+        <source>These are your HotShotCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>To so vaši HotShotCoin naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -74,8 +74,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a HotshotCoin address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva HotshotCoin naslova</translation>
+        <source>Sign a message to prove you own a HotShotCoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva HotShotCoin naslova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -89,8 +89,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified HotshotCoin address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim HotshotCoin naslovom</translation>
+        <source>Verify a message to ensure it was signed with a specified HotShotCoin address</source>
+        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim HotShotCoin naslovom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -257,8 +257,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>HotshotCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>HotshotCoin se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
+        <source>HotShotCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>HotShotCoin se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -351,8 +351,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about HotshotCoin</source>
-        <translation>Pokaži informacije o HotshotCoin</translation>
+        <source>Show information about HotShotCoin</source>
+        <translation>Pokaži informacije o HotShotCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -391,13 +391,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a HotshotCoin address</source>
-        <translation>Pošlji kovance na HotshotCoin naslov</translation>
+        <source>Send coins to a HotShotCoin address</source>
+        <translation>Pošlji kovance na HotShotCoin naslov</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for HotshotCoin</source>
-        <translation>Spremeni nastavitve za HotshotCoin</translation>
+        <source>Modify configuration options for HotShotCoin</source>
+        <translation>Spremeni nastavitve za HotShotCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -437,8 +437,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>HotshotCoin</source>
-        <translation>HotshotCoin</translation>
+        <source>HotShotCoin</source>
+        <translation>HotShotCoin</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -447,8 +447,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About HotshotCoin</source>
-        <translation>&amp;O HotshotCoin</translation>
+        <source>&amp;About HotShotCoin</source>
+        <translation>&amp;O HotShotCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -499,13 +499,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>HotshotCoin client</source>
-        <translation>HotshotCoin program</translation>
+        <source>HotShotCoin client</source>
+        <translation>HotShotCoin program</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to HotshotCoin network</source>
-        <translation><numerusform>%n aktivne povezave na HotshotCoin omrežje</numerusform><numerusform>%n aktivnih povezav na HotshotCoin omrežje</numerusform><numerusform>%n aktivnih povezav na HotshotCoin omrežje</numerusform><numerusform>%n aktivnih povezav na HotshotCoin omrežje</numerusform></translation>
+        <source>%n active connection(s) to HotShotCoin network</source>
+        <translation><numerusform>%n aktivne povezave na HotShotCoin omrežje</numerusform><numerusform>%n aktivnih povezav na HotShotCoin omrežje</numerusform><numerusform>%n aktivnih povezav na HotShotCoin omrežje</numerusform><numerusform>%n aktivnih povezav na HotShotCoin omrežje</numerusform></translation>
     </message>
     <message>
         <location line="+6"/>
@@ -594,8 +594,8 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid HotshotCoin address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega HotshotCoin naslova ali slabih parametrov URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid HotShotCoin address or malformed URI parameters.</source>
+        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega HotShotCoin naslova ali slabih parametrov URI.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -717,8 +717,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. HotshotCoin can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program HotshotCoin se ne more več varno nadaljevati in se bo zato zaprl. </translation>
+        <source>A fatal error occurred. HotShotCoin can no longer continue safely and will quit.</source>
+        <translation>Prišlo je do usodne napake. Program HotShotCoin se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
 </context>
 <context>
@@ -993,8 +993,8 @@ Naslov: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid HotshotCoin address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven HotshotCoin naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid HotShotCoin address.</source>
+        <translation>Vneseni naslov &quot;%1&quot; ni veljaven HotShotCoin naslov.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1012,8 +1012,8 @@ Naslov: %4
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>HotshotCoin-Qt</source>
-        <translation>HotshotCoin-Qt</translation>
+        <source>HotShotCoin-Qt</source>
+        <translation>HotShotCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1085,13 +1085,13 @@ Naslov: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start HotshotCoin after logging in to the system.</source>
-        <translation>Avtomatično zaženi HotshotCoin ob zagonu sistema.</translation>
+        <source>Automatically start HotShotCoin after logging in to the system.</source>
+        <translation>Avtomatično zaženi HotShotCoin ob zagonu sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start HotshotCoin on system login</source>
-        <translation>&amp;Zaženi HotshotCoin ob prijavi v sistem</translation>
+        <source>&amp;Start HotShotCoin on system login</source>
+        <translation>&amp;Zaženi HotShotCoin ob prijavi v sistem</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1100,8 +1100,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the HotshotCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za HotshotCoin program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
+        <source>Automatically open the HotShotCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata na routerju za HotShotCoin program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1130,7 +1130,7 @@ Naslov: %4
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the HotshotCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the HotShotCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1175,8 +1175,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting HotshotCoin.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu HotshotCoin aplikacije. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting HotShotCoin.</source>
+        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu HotShotCoin aplikacije. </translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1232,8 +1232,8 @@ Naslov: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting HotshotCoin.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu HotshotCoin aplikacije</translation>
+        <source>This setting will take effect after restarting HotShotCoin.</source>
+        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu HotShotCoin aplikacije</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1251,8 +1251,8 @@ Naslov: %4
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HotshotCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z HotshotCoin omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HotShotCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z HotShotCoin omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1495,8 +1495,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the HotshotCoin-Qt help message to get a list with possible HotshotCoin command-line options.</source>
-        <translation>Prikaži HotshotCoin-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice HotshotCoin aplikacije</translation>
+        <source>Show the HotShotCoin-Qt help message to get a list with possible HotShotCoin command-line options.</source>
+        <translation>Prikaži HotShotCoin-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice HotShotCoin aplikacije</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1515,13 +1515,13 @@ Naslov: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>HotshotCoin - Debug window</source>
-        <translation>HotshotCoin - okno za odpravljanje napak</translation>
+        <source>HotShotCoin - Debug window</source>
+        <translation>HotShotCoin - okno za odpravljanje napak</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>HotshotCoin Core</source>
-        <translation>HotshotCoin jedro</translation>
+        <source>HotShotCoin Core</source>
+        <translation>HotShotCoin jedro</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1530,8 +1530,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the HotshotCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri HotshotCoin datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
+        <source>Open the HotShotCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpri HotShotCoin datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1540,8 +1540,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the HotshotCoin RPC console.</source>
-        <translation>Dobrodošli v HotshotCoin RPC konzoli.</translation>
+        <source>Welcome to the HotShotCoin RPC console.</source>
+        <translation>Dobrodošli v HotShotCoin RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1711,8 +1711,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a HotshotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Vnesite HotshotCoin naslov (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Vnesite HotShotCoin naslov (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1806,8 +1806,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid HotshotCoin address</source>
-        <translation>OPOZORILO: Neveljaven HotshotCoin naslov</translation>
+        <source>WARNING: Invalid HotShotCoin address</source>
+        <translation>OPOZORILO: Neveljaven HotShotCoin naslov</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1880,8 +1880,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a HotshotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Vnesite HotshotCoin naslov (npr. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Vnesite HotShotCoin naslov (npr. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
 </context>
 <context>
@@ -1941,8 +1941,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this HotshotCoin address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva HotshotCoin naslova</translation>
+        <source>Sign the message to prove you own this HotShotCoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva HotShotCoin naslova</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1973,8 +1973,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified HotshotCoin address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim HotshotCoin naslovom</translation>
+        <source>Verify the message to ensure it was signed with the specified HotShotCoin address</source>
+        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim HotShotCoin naslovom</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1984,8 +1984,8 @@ Naslov: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a HotshotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Vnesite HotshotCoin naslov (npr. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Vnesite HotShotCoin naslov (npr. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1994,8 +1994,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter HotshotCoin signature</source>
-        <translation>Vnesite HotshotCoin podpis</translation>
+        <source>Enter HotShotCoin signature</source>
+        <translation>Vnesite HotShotCoin podpis</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2573,8 +2573,8 @@ Naslov: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>HotshotCoin version</source>
-        <translation>HotshotCoin različica</translation>
+        <source>HotShotCoin version</source>
+        <translation>HotShotCoin različica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2632,7 +2632,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2733,8 +2733,8 @@ for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HotshotCoin will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno HotshotCoin ne bo deloval.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HotShotCoin will not work properly.</source>
+        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno HotShotCoin ne bo deloval.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3028,7 +3028,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. HotshotCoin is shutting down.</source>
+        <source>Initialization sanity check failed. HotShotCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3083,13 +3083,13 @@ for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of HotshotCoin</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo HotshotCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of HotShotCoin</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo HotShotCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart HotshotCoin to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite HotshotCoin za dokončanje</translation>
+        <source>Wallet needed to be rewritten: restart HotShotCoin to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno odprite HotShotCoin za dokončanje</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3148,8 +3148,8 @@ for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. HotshotCoin is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča HotshotCoin aplikacija je verjetno že zagnana.</translation>
+        <source>Unable to bind to %s on this computer. HotShotCoin is probably already running.</source>
+        <translation>Navezava v %s  na tem računalniku ni mogoča HotShotCoin aplikacija je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3178,7 +3178,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. HotshotCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. HotShotCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

@@ -3,24 +3,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About HotshotCoin</source>
-        <translation>Om HotshotCoin</translation>
+        <source>About HotShotCoin</source>
+        <translation>Om HotShotCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;HotshotCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;HotshotCoin&lt;/b&gt; versjon</translation>
+        <source>&lt;b&gt;HotShotCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;HotShotCoin&lt;/b&gt; versjon</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2018 The ShardCoin developers
-Copyright © 2018 The HotshotCoin developers</source>
+Copyright © 2018 The HotShotCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2018 The ShardCoin developers
-Copyright © 2018 The HotshotCoin developers</translation>
+Copyright © 2018 The HotShotCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -62,7 +62,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your HotshotCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your HotShotCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Dette er adressene for å motta betalinger. Du ønsker kanskje å gi ulike adresser til hver avsender så du lettere kan holde øye med hvem som betaler deg.</translation>
     </message>
     <message>
@@ -77,8 +77,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a HotshotCoin address</source>
-        <translation>Signer en melding for å bevise din egen HotshotCoin adresse.</translation>
+        <source>Sign a message to prove you own a HotShotCoin address</source>
+        <translation>Signer en melding for å bevise din egen HotShotCoin adresse.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -92,8 +92,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified HotshotCoin address</source>
-        <translation>Verifiser en melding får å forsikre deg om at den er signert med en spesifikk HotshotCoin adresse</translation>
+        <source>Verify a message to ensure it was signed with a specified HotShotCoin address</source>
+        <translation>Verifiser en melding får å forsikre deg om at den er signert med en spesifikk HotShotCoin adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -260,7 +260,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>HotshotCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>HotShotCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -354,8 +354,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about HotshotCoin</source>
-        <translation>Vis info om HotshotCoin</translation>
+        <source>Show information about HotShotCoin</source>
+        <translation>Vis info om HotShotCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -394,13 +394,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a HotshotCoin address</source>
-        <translation>Send coins til en HotshotCoin adresse</translation>
+        <source>Send coins to a HotShotCoin address</source>
+        <translation>Send coins til en HotShotCoin adresse</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for HotshotCoin</source>
-        <translation>Endre innstillingene til HotshotCoin</translation>
+        <source>Modify configuration options for HotShotCoin</source>
+        <translation>Endre innstillingene til HotShotCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -440,8 +440,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>HotshotCoin</source>
-        <translation>HotshotCoin</translation>
+        <source>HotShotCoin</source>
+        <translation>HotShotCoin</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -450,8 +450,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About HotshotCoin</source>
-        <translation>&amp;Om HotshotCoin</translation>
+        <source>&amp;About HotShotCoin</source>
+        <translation>&amp;Om HotShotCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -502,13 +502,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>HotshotCoin client</source>
-        <translation>HotshotCoin klient</translation>
+        <source>HotShotCoin client</source>
+        <translation>HotShotCoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to HotshotCoin network</source>
-        <translation><numerusform>%n aktiv tilkobling til HotshotCoin nettverket</numerusform><numerusform>%n aktive tilkoblinger til HotshotCoin nettverket</numerusform></translation>
+        <source>%n active connection(s) to HotShotCoin network</source>
+        <translation><numerusform>%n aktiv tilkobling til HotShotCoin nettverket</numerusform><numerusform>%n aktive tilkoblinger til HotShotCoin nettverket</numerusform></translation>
     </message>
     <message>
         <location line="+6"/>
@@ -597,7 +597,7 @@ Adresse: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid HotshotCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid HotShotCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -720,7 +720,7 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. HotshotCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. HotShotCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -988,8 +988,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid HotshotCoin address.</source>
-        <translation>Den angitte adressen &quot;%1&quot; er ikke en gyldig HotshotCoin adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid HotShotCoin address.</source>
+        <translation>Den angitte adressen &quot;%1&quot; er ikke en gyldig HotShotCoin adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1007,8 +1007,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>HotshotCoin-Qt</source>
-        <translation>HotshotCoin-Qt</translation>
+        <source>HotShotCoin-Qt</source>
+        <translation>HotShotCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1080,13 +1080,13 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start HotshotCoin after logging in to the system.</source>
-        <translation>Start HotshotCoin automatisk ved hver innlogging.</translation>
+        <source>Automatically start HotShotCoin after logging in to the system.</source>
+        <translation>Start HotShotCoin automatisk ved hver innlogging.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start HotshotCoin on system login</source>
-        <translation>&amp;Start HotshotCoin ved innlogging</translation>
+        <source>&amp;Start HotShotCoin on system login</source>
+        <translation>&amp;Start HotShotCoin ved innlogging</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1095,7 +1095,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the HotshotCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the HotShotCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1125,7 +1125,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the HotshotCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the HotShotCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1170,7 +1170,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting HotshotCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting HotShotCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1181,7 +1181,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Velg standard delt enhet for visning i grensesnittet og for sending av HotshotCoins.</translation>
+        <translation>Velg standard delt enhet for visning i grensesnittet og for sending av HotShotCoins.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1227,8 +1227,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting HotshotCoin.</source>
-        <translation>Denne innstillingen vil tre i kraft etter HotshotCoin er blitt startet på nytt.</translation>
+        <source>This setting will take effect after restarting HotShotCoin.</source>
+        <translation>Denne innstillingen vil tre i kraft etter HotShotCoin er blitt startet på nytt.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1246,7 +1246,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HotshotCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HotShotCoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1490,7 +1490,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the HotshotCoin-Qt help message to get a list with possible HotshotCoin command-line options.</source>
+        <source>Show the HotShotCoin-Qt help message to get a list with possible HotShotCoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1510,12 +1510,12 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>HotshotCoin - Debug window</source>
+        <source>HotShotCoin - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>HotshotCoin Core</source>
+        <source>HotShotCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1525,7 +1525,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the HotshotCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the HotShotCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1535,7 +1535,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the HotshotCoin RPC console.</source>
+        <source>Welcome to the HotShotCoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1596,7 +1596,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Send HotshotCoins</translation>
+        <translation>Send HotShotCoins</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1706,7 +1706,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a HotshotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1801,8 +1801,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid HotshotCoin address</source>
-        <translation>ADVARSEL: Ugyldig HotshotCoin adresse</translation>
+        <source>WARNING: Invalid HotShotCoin address</source>
+        <translation>ADVARSEL: Ugyldig HotShotCoin adresse</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1875,7 +1875,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a HotshotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1936,7 +1936,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this HotshotCoin address</source>
+        <source>Sign the message to prove you own this HotShotCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1968,7 +1968,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified HotshotCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified HotShotCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1979,7 +1979,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a HotshotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1989,8 +1989,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter HotshotCoin signature</source>
-        <translation>Skriv inn HotshotCoin signatur</translation>
+        <source>Enter HotShotCoin signature</source>
+        <translation>Skriv inn HotShotCoin signatur</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2568,8 +2568,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>HotshotCoin version</source>
-        <translation>HotshotCoin versjon</translation>
+        <source>HotShotCoin version</source>
+        <translation>HotShotCoin versjon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2627,7 +2627,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2728,7 +2728,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HotshotCoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HotShotCoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3023,7 +3023,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. HotshotCoin is shutting down.</source>
+        <source>Initialization sanity check failed. HotShotCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3078,12 +3078,12 @@ for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of HotshotCoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of HotShotCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart HotshotCoin to complete</source>
+        <source>Wallet needed to be rewritten: restart HotShotCoin to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3143,7 +3143,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. HotshotCoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. HotShotCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3173,7 +3173,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. HotshotCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. HotShotCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

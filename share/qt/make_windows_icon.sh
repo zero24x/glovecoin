@@ -1,5 +1,5 @@
 #!/bin/bash
 # create multiresolution windows icon
-ICON_DST=../../src/qt/res/icons/HotshotCoin.ico
+ICON_DST=../../src/qt/res/icons/HotShotCoin.ico
 
-convert ../../src/qt/res/icons/HotshotCoin-16.png ../../src/qt/res/icons/HotshotCoin-32.png ../../src/qt/res/icons/HotshotCoin-48.png ${ICON_DST}
+convert ../../src/qt/res/icons/HotShotCoin-16.png ../../src/qt/res/icons/HotShotCoin-32.png ../../src/qt/res/icons/HotShotCoin-48.png ${ICON_DST}

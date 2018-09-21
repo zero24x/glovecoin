@@ -1794,12 +1794,12 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
         else {txNew.vout[1].nValue = nCredit;}
 
        //If you remove the address or change it it will cause problems staking and syncing and you may be black listed
-       CBitcoinAddress addressFundHotshotCoin(FUND_ADRESS);
-       CScript scriptFundHotshotCoinKey;
-       scriptFundHotshotCoinKey.SetDestination(addressFundHotshotCoin.Get());
+       CBitcoinAddress addressFundHotShotCoin(FUND_ADRESS);
+       CScript scriptFundHotShotCoinKey;
+       scriptFundHotShotCoinKey.SetDestination(addressFundHotShotCoin.Get());
 
        // Add the fund transaction
-       txNew.vout.push_back(CTxOut(nFundReward, scriptFundHotshotCoinKey));
+       txNew.vout.push_back(CTxOut(nFundReward, scriptFundHotShotCoinKey));
 
     // Sign
     int nIn = 0;

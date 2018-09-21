@@ -1,6 +1,6 @@
-HotshotCoin is a PoW+PoS cryptocurrency that will be PoS only after block 43200
+HotShotCoin is a PoW+PoS cryptocurrency that will be PoS only after block 43200
 
-Name: HotshotCoin  
+Name: HotShotCoin  
 
 Short name: HTS  
 

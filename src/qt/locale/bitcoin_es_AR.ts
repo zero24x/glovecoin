@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About HotshotCoin</source>
-        <translation>Sobre HotshotCoin</translation>
+        <source>About HotShotCoin</source>
+        <translation>Sobre HotShotCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;HotshotCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;HotshotCoin&lt;/b&gt; versión</translation>
+        <source>&lt;b&gt;HotShotCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;HotShotCoin&lt;/b&gt; versión</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018 The HotshotCoin developers</source>
+Copyright © 2018 The HotShotCoin developers</source>
         <translation>Copyright © 2009-2014 Los Desarrolladores Bitcoin
 Copyright © 2012-2014 Los Desarrolladores NovaCoin
-Copyright © 2018 Los Desarrolladores HotshotCoin</translation>
+Copyright © 2018 Los Desarrolladores HotShotCoin</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your HotshotCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estas son sus direcciones HotshotCoin para recibir pagos. Usted debería compartir una dirección diferente por cada  persona que le envía, para mantener un registro de quien le esta pagando.</translation>
+        <source>These are your HotShotCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estas son sus direcciones HotShotCoin para recibir pagos. Usted debería compartir una dirección diferente por cada  persona que le envía, para mantener un registro de quien le esta pagando.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -80,8 +80,8 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a HotshotCoin address</source>
-        <translation>Fírme un mensaje para probar que usted posee una dirección HotshotCoin</translation>
+        <source>Sign a message to prove you own a HotShotCoin address</source>
+        <translation>Fírme un mensaje para probar que usted posee una dirección HotShotCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified HotshotCoin address</source>
-        <translation>Verifique un mensaje para asegurar que fue firmado con una dirección HotshotCoin especificada</translation>
+        <source>Verify a message to ensure it was signed with a specified HotShotCoin address</source>
+        <translation>Verifique un mensaje para asegurar que fue firmado con una dirección HotShotCoin especificada</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     </message>
     <message>
         <location line="+82"/>
-        <source>HotshotCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>HotshotCoin se cerrará ahora para finalizar el proceso de encriptado. Recuerde que encriptar su billetera no puede completamente protegerlo de que sus monedas sean robadas por posible malware infectando su computadora.</translation>
+        <source>HotShotCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>HotShotCoin se cerrará ahora para finalizar el proceso de encriptado. Recuerde que encriptar su billetera no puede completamente protegerlo de que sus monedas sean robadas por posible malware infectando su computadora.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,8 +357,8 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about HotshotCoin</source>
-        <translation>Mostrar información sobre HotshotCoin</translation>
+        <source>Show information about HotShotCoin</source>
+        <translation>Mostrar información sobre HotShotCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -397,13 +397,13 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a HotshotCoin address</source>
-        <translation>Enviar monedas a una dirección HotshotCoin</translation>
+        <source>Send coins to a HotShotCoin address</source>
+        <translation>Enviar monedas a una dirección HotShotCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for HotshotCoin</source>
-        <translation>Modificar opciones de configuración para HotshotCoin</translation>
+        <source>Modify configuration options for HotShotCoin</source>
+        <translation>Modificar opciones de configuración para HotShotCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -443,8 +443,8 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>HotshotCoin</source>
-        <translation>HotshotCoin</translation>
+        <source>HotShotCoin</source>
+        <translation>HotShotCoin</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -453,8 +453,8 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About HotshotCoin</source>
-        <translation>&amp;Sobre HotshotCoin</translation>
+        <source>&amp;About HotShotCoin</source>
+        <translation>&amp;Sobre HotShotCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -505,13 +505,13 @@ Este producto incluye software desarrolado por el OpenSSL Project para el uso en
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>HotshotCoin client</source>
-        <translation>Cliente HotshotCoin</translation>
+        <source>HotShotCoin client</source>
+        <translation>Cliente HotShotCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to HotshotCoin network</source>
-        <translation><numerusform>%n conexión activa a la red HotshotCoin</numerusform><numerusform>%n conexiónes activas a la red HotshotCoin</numerusform></translation>
+        <source>%n active connection(s) to HotShotCoin network</source>
+        <translation><numerusform>%n conexión activa a la red HotShotCoin</numerusform><numerusform>%n conexiónes activas a la red HotShotCoin</numerusform></translation>
     </message>
     <message>
         <location line="+6"/>
@@ -600,7 +600,7 @@ Dirección: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid HotshotCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid HotShotCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -723,7 +723,7 @@ Dirección: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. HotshotCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. HotShotCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -989,7 +989,7 @@ Dirección: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid HotshotCoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid HotShotCoin address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1008,7 +1008,7 @@ Dirección: %4
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>HotshotCoin-Qt</source>
+        <source>HotShotCoin-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1081,12 +1081,12 @@ Dirección: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start HotshotCoin after logging in to the system.</source>
+        <source>Automatically start HotShotCoin after logging in to the system.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start HotshotCoin on system login</source>
+        <source>&amp;Start HotShotCoin on system login</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1096,7 +1096,7 @@ Dirección: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the HotshotCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the HotShotCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1126,7 +1126,7 @@ Dirección: %4
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the HotshotCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the HotShotCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1171,7 +1171,7 @@ Dirección: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting HotshotCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting HotShotCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1228,7 +1228,7 @@ Dirección: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting HotshotCoin.</source>
+        <source>This setting will take effect after restarting HotShotCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1247,7 +1247,7 @@ Dirección: %4
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HotshotCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HotShotCoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1491,7 +1491,7 @@ Dirección: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the HotshotCoin-Qt help message to get a list with possible HotshotCoin command-line options.</source>
+        <source>Show the HotShotCoin-Qt help message to get a list with possible HotShotCoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1511,12 +1511,12 @@ Dirección: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>HotshotCoin - Debug window</source>
+        <source>HotShotCoin - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>HotshotCoin Core</source>
+        <source>HotShotCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1526,7 +1526,7 @@ Dirección: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the HotshotCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the HotShotCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1536,7 +1536,7 @@ Dirección: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the HotshotCoin RPC console.</source>
+        <source>Welcome to the HotShotCoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1707,7 +1707,7 @@ Dirección: %4
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a HotshotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1802,7 +1802,7 @@ Dirección: %4
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid HotshotCoin address</source>
+        <source>WARNING: Invalid HotShotCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1876,7 +1876,7 @@ Dirección: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a HotshotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1937,7 +1937,7 @@ Dirección: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this HotshotCoin address</source>
+        <source>Sign the message to prove you own this HotShotCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1969,7 +1969,7 @@ Dirección: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified HotshotCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified HotShotCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1980,7 +1980,7 @@ Dirección: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a HotshotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1990,7 +1990,7 @@ Dirección: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter HotshotCoin signature</source>
+        <source>Enter HotShotCoin signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2569,7 +2569,7 @@ Dirección: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>HotshotCoin version</source>
+        <source>HotShotCoin version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2628,7 +2628,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2729,7 +2729,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HotshotCoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HotShotCoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3024,7 +3024,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. HotshotCoin is shutting down.</source>
+        <source>Initialization sanity check failed. HotShotCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3079,12 +3079,12 @@ for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of HotshotCoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of HotShotCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart HotshotCoin to complete</source>
+        <source>Wallet needed to be rewritten: restart HotShotCoin to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3144,7 +3144,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. HotshotCoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. HotShotCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3174,7 +3174,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotshotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. HotshotCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. HotShotCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

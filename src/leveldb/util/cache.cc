@@ -264,12 +264,12 @@ void LRUCache::Erase(const Slice& key, uint32_t hash) {
   }
 }
 
-static const int kNumHotshotCoinBits = 4;
-static const int kNumHotshotCoins = 1 << kNumHotshotCoinBits;
+static const int kNumHotShotCoinBits = 4;
+static const int kNumHotShotCoins = 1 << kNumHotShotCoinBits;
 
-class HotshotCoinedLRUCache : public Cache {
+class HotShotCoinedLRUCache : public Cache {
  private:
-  LRUCache hotshotcoin_[kNumHotshotCoins];
+  LRUCache hotshotcoin_[kNumHotShotCoins];
   port::Mutex id_mutex_;
   uint64_t last_id_;
 
@@ -277,35 +277,35 @@ class HotshotCoinedLRUCache : public Cache {
     return Hash(s.data(), s.size(), 0);
   }
 
-  static uint32_t HotshotCoin(uint32_t hash) {
-    return hash >> (32 - kNumHotshotCoinBits);
+  static uint32_t HotShotCoin(uint32_t hash) {
+    return hash >> (32 - kNumHotShotCoinBits);
   }
 
  public:
-  explicit HotshotCoinedLRUCache(size_t capacity)
+  explicit HotShotCoinedLRUCache(size_t capacity)
       : last_id_(0) {
-    const size_t per_hotshotcoin = (capacity + (kNumHotshotCoins - 1)) / kNumHotshotCoins;
-    for (int s = 0; s < kNumHotshotCoins; s++) {
+    const size_t per_hotshotcoin = (capacity + (kNumHotShotCoins - 1)) / kNumHotShotCoins;
+    for (int s = 0; s < kNumHotShotCoins; s++) {
       hotshotcoin_[s].SetCapacity(per_hotshotcoin);
     }
   }
-  virtual ~HotshotCoinedLRUCache() { }
+  virtual ~HotShotCoinedLRUCache() { }
   virtual Handle* Insert(const Slice& key, void* value, size_t charge,
                          void (*deleter)(const Slice& key, void* value)) {
     const uint32_t hash = HashSlice(key);
-    return hotshotcoin_[HotshotCoin(hash)].Insert(key, hash, value, charge, deleter);
+    return hotshotcoin_[HotShotCoin(hash)].Insert(key, hash, value, charge, deleter);
   }
   virtual Handle* Lookup(const Slice& key) {
     const uint32_t hash = HashSlice(key);
-    return hotshotcoin_[HotshotCoin(hash)].Lookup(key, hash);
+    return hotshotcoin_[HotShotCoin(hash)].Lookup(key, hash);
   }
   virtual void Release(Handle* handle) {
     LRUHandle* h = reinterpret_cast<LRUHandle*>(handle);
-    hotshotcoin_[HotshotCoin(h->hash)].Release(handle);
+    hotshotcoin_[HotShotCoin(h->hash)].Release(handle);
   }
   virtual void Erase(const Slice& key) {
     const uint32_t hash = HashSlice(key);
-    hotshotcoin_[HotshotCoin(hash)].Erase(key, hash);
+    hotshotcoin_[HotShotCoin(hash)].Erase(key, hash);
   }
   virtual void* Value(Handle* handle) {
     return reinterpret_cast<LRUHandle*>(handle)->value;
@@ -319,7 +319,7 @@ class HotshotCoinedLRUCache : public Cache {
 }  // end anonymous namespace
 
 Cache* NewLRUCache(size_t capacity) {
-  return new HotshotCoinedLRUCache(capacity);
+  return new HotShotCoinedLRUCache(capacity);
 }
 
 }  // namespace leveldb

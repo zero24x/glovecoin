@@ -3,27 +3,27 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>HotshotCoin.icns</string>
+	<string>HotShotCoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>HotshotCoin-Qt</string>
+	<string>HotShotCoin-Qt</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>HotshotCoin-Qt</string>
+	<string>HotShotCoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.hotshotcoin.HotshotCoin-Qt</string>
+	<string>com.hotshotcoin.HotShotCoin-Qt</string>
   <key>CFBundleURLTypes</key>
   <array>
     <dict>
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>com.hotshotcoin.HotshotCoinPayment</string>
+      <string>com.hotshotcoin.HotShotCoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>HotshotCoin</string>
+        <string>HotShotCoin</string>
       </array>
     </dict>
   </array>

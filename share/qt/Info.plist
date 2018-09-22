@@ -7,13 +7,13 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>HotShotCoin-Qt</string>
+	<string>HotShotCoin</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>HotShotCoin-Qt</string>
+	<string>HotShotCoin</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.hotshotcoin.HotShotCoin-Qt</string>
+	<string>com.hotshotcoin.HotShotCoin</string>
   <key>CFBundleURLTypes</key>
   <array>
     <dict>

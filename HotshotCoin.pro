@@ -474,7 +474,7 @@ macx:OBJECTIVE_SOURCES += src/qt/macnotificationhandler.mm src/qt/macdockiconhan
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit
 macx:DEFINES += MAC_OSX MSG_NOSIGNAL=0
 macx:ICON = src/qt/res/icons/HotShotCoin.icns
-macx:TARGET = "HotShotCoin-Qt"
+macx:TARGET = "HotShotCoin"
 macx:QMAKE_CFLAGS_THREAD += -pthread
 macx:QMAKE_LFLAGS_THREAD += -pthread
 macx:QMAKE_CXXFLAGS_THREAD += -pthread

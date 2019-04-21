@@ -2144,7 +2144,7 @@ bool CBlock::AcceptBlock()
 	if (nVersion < 7)
 		return DoS(100, error("AcceptBlock() : reject too old nVersion = %d", nVersion));
 
-	// blocks 10k to 15k have POW disabled.
+	// pow block height limit
 	if (IsProofOfWork() && nHeight > Params().LastPOWBlock())
 		return DoS(100, error("AcceptBlock() : reject proof-of-work at height %d", nHeight));
 

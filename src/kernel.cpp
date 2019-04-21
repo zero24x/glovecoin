@@ -18,7 +18,7 @@ int64_t GetWeight(int64_t nIntervalBeginning, int64_t nIntervalEnd)
     // Kernel hash weight starts from 0 at the min age
     // this change increases active coins participating the hash and helps
     // to secure the network when proof-of-stake difficulty is low
-    return min(nIntervalEnd - nIntervalBeginning - nStakeMinAge, (int64_t)nStakeMaxAge);
+    return min(nIntervalEnd - nIntervalBeginning - getNStakeMinAge(), (int64_t)nStakeMaxAge);
 }
 
 // Get the last stake modifier and its generation time from a given block
@@ -220,7 +220,7 @@ static bool GetKernelStakeModifier(uint256 hashBlockFrom, uint256& nStakeModifie
     {
         if (!pindex->pnext)
         {   // reached best block; may happen if node is behind on block chain
-            if (fPrintProofOfStake || (pindex->GetBlockTime() + nStakeMinAge - nStakeModifierSelectionInterval > GetAdjustedTime()))
+            if (fPrintProofOfStake || (pindex->GetBlockTime() + getNStakeMinAge() - nStakeModifierSelectionInterval > GetAdjustedTime()))
                 return error("GetKernelStakeModifier() : reached best block %s at height %d from block %s",
                     pindex->GetBlockHash().ToString(), pindex->nHeight, hashBlockFrom.ToString());
             else
@@ -237,7 +237,7 @@ static bool GetKernelStakeModifier(uint256 hashBlockFrom, uint256& nStakeModifie
     return true;
 }
 
-// HotShotCoin kernel protocol
+// GloveCoin kernel protocol
 // coinstake must meet hash target according to the protocol:
 // kernel (input 0) must meet the formula
 //     hash(nStakeModifier + txPrev.block.nTime + txPrev.nTime + txPrev.vout.hash + txPrev.vout.n + nTime) < bnTarget * nWeight
@@ -264,7 +264,7 @@ static bool CheckStakeKernelHashV2(CBlockIndex* pindexPrev, unsigned int nBits, 
     if (nTimeTx < txPrev.nTime)  // Transaction timestamp violation
         return error("CheckStakeKernelHashV2() : nTime violation");
 
-    if (nTimeBlockFrom + nStakeMinAge > nTimeTx) // min age requirement
+    if (nTimeBlockFrom + getNStakeMinAge() > nTimeTx) // min age requirement
         return error("CheckStakeKernelHashV2() : min age violation");
 
     // Base target
@@ -381,7 +381,7 @@ bool CheckKernel(CBlockIndex* pindexPrev, unsigned int nBits, int64_t nTime, con
     if (!block.ReadFromDisk(txindex.pos.nFile, txindex.pos.nBlockPos, false))
         return false;
 
-    if (block.GetBlockTime() + nStakeMinAge > nTime)
+    if (block.GetBlockTime() + getNStakeMinAge() > nTime)
         return false; // only count coins meeting min age requirement
 
     int nDepth;

@@ -7,12 +7,12 @@ software written by Eric Young (eay@cryptsoft.com) and UPnP software written by
 Thomas Bernard.
 
 
-Mac OS X hotshotcoind build instructions
+Mac OS X glovecoind build instructions
 Laszlo Hanyecz <solar@heliacal.net>
 Douglas Huff <dhuff@jrbobdobbs.org>
 
 
-See readme-qt.rst for instructions on building HotShotCoin QT, the
+See readme-qt.rst for instructions on building GloveCoin QT, the
 graphical user interface.
 
 Tested on 10.5 and 10.6 intel.  PPC is not supported because it's big-endian.
@@ -27,7 +27,7 @@ but you can get the current version from http://developer.apple.com
 
 1.  Clone the github tree to get the source code:
 
-git clone https://github.com/HotShotCoin/HotShotCoin.git HotShotCoin
+git clone https://github.com/GloveCoin/GloveCoin.git GloveCoin
 
 2.  Download and install MacPorts from http://www.macports.org/
 
@@ -41,14 +41,14 @@ sudo port install boost db48 openssl miniupnpc
 Optionally install qrencode (and set USE_QRCODE=1):
 sudo port install qrencode
 
-4.  Now you should be able to build hotshotcoind:
+4.  Now you should be able to build glovecoind:
 
-cd HotShotCoin/src
+cd GloveCoin/src
 make -f makefile.osx
 
 Run:
-  ./hotshotcoind --help  # for a list of command-line options.
+  ./glovecoind --help  # for a list of command-line options.
 Run
-  ./hotshotcoind -daemon # to start the HotShotCoin daemon.
+  ./glovecoind -daemon # to start the GloveCoin daemon.
 Run
-  ./hotshotcoind help # When the daemon is running, to get a list of RPC commands
+  ./glovecoind help # When the daemon is running, to get a list of RPC commands

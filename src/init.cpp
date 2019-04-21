@@ -90,7 +90,7 @@ void Shutdown()
     TRY_LOCK(cs_Shutdown, lockShutdown);
     if (!lockShutdown) return;
 
-    RenameThread("hotshotcoin-shutoff");
+    RenameThread("glovecoin-shutoff");
     mempool.AddTransactionsUpdated(1);
     StopRPCThreads();
 #ifdef ENABLE_WALLET
@@ -161,8 +161,8 @@ std::string HelpMessage()
 {
     string strUsage = _("Options:") + "\n";
     strUsage += "  -?                     " + _("This help message") + "\n";
-    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: hotshotcoin.conf)") + "\n";
-    strUsage += "  -pid=<file>            " + _("Specify pid file (default: hotshotcoind.pid)") + "\n";
+    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: glovecoin.conf)") + "\n";
+    strUsage += "  -pid=<file>            " + _("Specify pid file (default: glovecoind.pid)") + "\n";
     strUsage += "  -datadir=<dir>         " + _("Specify data directory") + "\n";
     strUsage += "  -wallet=<dir>          " + _("Specify wallet file (within data directory)") + "\n";
     strUsage += "  -dbcache=<n>           " + _("Set database cache size in megabytes (default: 25)") + "\n";
@@ -171,7 +171,7 @@ std::string HelpMessage()
     strUsage += "  -proxy=<ip:port>       " + _("Connect through SOCKS5 proxy") + "\n";
     strUsage += "  -tor=<ip:port>         " + _("Use proxy to reach tor hidden services (default: same as -proxy)") + "\n";
     strUsage += "  -dns                   " + _("Allow DNS lookups for -addnode, -seednode and -connect") + "\n";
-    strUsage += "  -port=<port>           " + _("Listen for connections on <port> (default: 22063 or testnet: 58200)") + "\n";
+    strUsage += "  -port=<port>           " + _("Listen for connections on <port> (default: 22064 or testnet: 58200)") + "\n";
     strUsage += "  -maxconnections=<n>    " + _("Maintain at most <n> connections to peers (default: 125)") + "\n";
     strUsage += "  -addnode=<ip>          " + _("Add a node to connect to and attempt to keep the connection open") + "\n";
     strUsage += "  -connect=<ip>          " + _("Connect only to the specified node(s)") + "\n";
@@ -224,7 +224,7 @@ std::string HelpMessage()
                                                 "solved instantly. This is intended for regression testing tools and app development.") + "\n";
     strUsage += "  -rpcuser=<user>        " + _("Username for JSON-RPC connections") + "\n";
     strUsage += "  -rpcpassword=<pw>      " + _("Password for JSON-RPC connections") + "\n";
-    strUsage += "  -rpcport=<port>        " + _("Listen for JSON-RPC connections on <port> (default: 22073 or testnet: 27058)") + "\n";
+    strUsage += "  -rpcport=<port>        " + _("Listen for JSON-RPC connections on <port> (default: 22074 or testnet: 27058)") + "\n";
     strUsage += "  -rpcallowip=<ip>       " + _("Allow JSON-RPC connections from specified IP address") + "\n";
     if (!fHaveGUI)
     {
@@ -450,7 +450,7 @@ bool AppInit2(boost::thread_group& threadGroup)
 
     // Sanity check
     if (!InitSanityCheck())
-        return InitError(_("Initialization sanity check failed. HotShotCoin is shutting down."));
+        return InitError(_("Initialization sanity check failed. GloveCoin is shutting down."));
 
     std::string strDataDir = GetDataDir().string();
 #ifdef ENABLE_WALLET
@@ -466,12 +466,12 @@ bool AppInit2(boost::thread_group& threadGroup)
     if (file) fclose(file);
     static boost::interprocess::file_lock lock(pathLockFile.string().c_str());
     if (!lock.try_lock())
-        return InitError(strprintf(_("Cannot obtain a lock on data directory %s. HotShotCoin is probably already running."), strDataDir));
+        return InitError(strprintf(_("Cannot obtain a lock on data directory %s. GloveCoin is probably already running."), strDataDir));
 
     if (GetBoolArg("-shrinkdebugfile", !fDebug))
         ShrinkDebugFile();
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("HotShotCoin version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
+    LogPrintf("GloveCoin version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
     LogPrintf("Using OpenSSL version %s\n", SSLeay_version(SSLEAY_VERSION));
     LogPrintf("Using BerkeleyDB version %s\n", DbEnv::version(0, 0, 0));
     if (!fLogTimestamps)
@@ -481,7 +481,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     std::ostringstream strErrors;
 
     if (fDaemon)
-        fprintf(stdout, "HotShotCoin server starting\n");
+        fprintf(stdout, "GloveCoin server starting\n");
 
     int64_t nStart;
 
@@ -710,10 +710,10 @@ bool AppInit2(boost::thread_group& threadGroup)
                 InitWarning(msg);
             }
             else if (nLoadWalletRet == DB_TOO_NEW)
-                strErrors << _("Error loading wallet.dat: Wallet requires newer version of HotShotCoin") << "\n";
+                strErrors << _("Error loading wallet.dat: Wallet requires newer version of GloveCoin") << "\n";
             else if (nLoadWalletRet == DB_NEED_REWRITE)
             {
-                strErrors << _("Wallet needed to be rewritten: restart HotShotCoin to complete") << "\n";
+                strErrors << _("Wallet needed to be rewritten: restart GloveCoin to complete") << "\n";
                 LogPrintf("%s", strErrors.str());
                 return InitError(strErrors.str());
             }

@@ -23,7 +23,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "HotShotCoin cannot be compiled without assertions."
+# error "GloveCoin cannot be compiled without assertions."
 #endif
 
 //
@@ -43,11 +43,10 @@ set<pair<COutPoint, unsigned int> > setStakeSeen;
 CBigNum bnProofOfStakeLimit(~uint256(0) >> 48);
 
 int nStakeMinConfirmations = 10;
-unsigned int nStakeMinAge = 9 * 60 * 60; // 9 hours
 unsigned int nStakeMaxAge = 3 * (60 * 60 * 24); // 3 days
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
-int nCoinbaseMaturity = 10;
+int nCoinbaseMaturity = 20;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
@@ -78,7 +77,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "HotShotCoin Signed Message:\n";
+const string strMessageMagic = "GloveCoin Signed Message:\n";
 
 //////////////////////////////////////////////////////////////////////////////
 //
@@ -975,6 +974,15 @@ bool maxSupplyReached() {
     return pindexBest->nMoneySupply >= MAX_MONEY;
 }
 
+int getNStakeMinAge()
+{
+	if (pindexBest->nHeight < 14400) {
+		return 1 * 60 * 60;
+	} else {
+		return 12 * 60 * 60;
+	}
+}
+
 // miner's coin base reward
 int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 {
@@ -983,20 +991,11 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
       return nFees;
     }
 
-	// Defaults to 1 coins per block.
-	int64_t nSubsidy = 1 * COIN;
+	int64_t nSubsidy = 0 * COIN;
 
-	// Premine 25M
+	// Premine
 	if(nHeight+1 == 1) {
 		nSubsidy = 4000000 * COIN;
-	} else if (nHeight+1 > 1 && nHeight+1 <= 1000) {
-		nSubsidy = 5 * COIN;
-	} else if (nHeight+1 > 1000 && nHeight+1 <= 5000) {
-		nSubsidy = 20 * COIN;
-	} else if (nHeight+1 > 5000 && nHeight+1 <= 10000) {
-		nSubsidy = 10 * COIN;
-	} else {
-		nSubsidy = 0.00004 * COIN;
 	}
 
 	if (fDebug) {
@@ -1014,13 +1013,10 @@ uint64_t GetProofOfStakeReward(int nHeight, uint64_t nCoinAge, int64_t nFees)
       return nFees;
     }
 
-	uint64_t nSubsidy;
-
-	int64_t coinYearReward = GetCoinYearReward(nHeight);
-	nSubsidy = nCoinAge * coinYearReward * 33 / (365 * 33 + 8);
+	uint64_t nSubsidy = 2 * COIN;
 
 	if (fDebug) {
-		LogPrintf("GetProofOfStakeReward(): coinYearReward=%d create=%s nCoinAge=%d\n", coinYearReward, FormatMoney(nSubsidy), nCoinAge);
+		LogPrintf("GetProofOfStakeReward(): create=%s\n", FormatMoney(nSubsidy));
 	}
 
 	return nSubsidy + nFees;
@@ -1617,16 +1613,16 @@ bool CBlock::ConnectBlock(CTxDB& txdb, CBlockIndex* pindex, bool fJustCheck)
 
                     BOOST_FOREACH(const CTxOut& output, vtx[1].vout) {  
 
-                       CTxDestination addrhotshotcoin2;
-                       ExtractDestination(output.scriptPubKey, addrhotshotcoin2);
-                       std::string GetTxAdressFromTransaction = CBitcoinAddress (addrhotshotcoin2).ToString().c_str();
+                       CTxDestination addrglovecoin2;
+                       ExtractDestination(output.scriptPubKey, addrglovecoin2);
+                       std::string GetTxAdressFromTransaction = CBitcoinAddress (addrglovecoin2).ToString().c_str();
 
                         //If you remove the address or change it it will cause problems staking and syncing and you may be black listed
                         if (GetTxAdressFromTransaction == FUND_ADRESS) {
  
-                              uint64_t nOutputHotShotCoin = output.nValue;
+                              uint64_t nOutputGloveCoin = output.nValue;
 
-                            if (nOutputHotShotCoin == (nCalculatedStakeReward / 5)) {
+                            if (nOutputGloveCoin == (nCalculatedStakeReward / 4)) {
 
                                 found = true;
                                 break;
@@ -1949,8 +1945,8 @@ bool CTransaction::GetCoinAge(CTxDB& txdb, const CBlockIndex* pindexPrev, uint64
 		CBlock block;
 		if (!block.ReadFromDisk(txindex.pos.nFile, txindex.pos.nBlockPos, false))
 			return false; // could not read block of previous transactions
-		if (block.GetBlockTime() + nStakeMinAge > nTime) {
-			LogPrint("coinage", "coin age skip check=%d nTime=%d\n", block.GetBlockTime() + nStakeMinAge, nTime);
+		if (block.GetBlockTime() + getNStakeMinAge() > nTime) {
+			LogPrint("coinage", "coin age skip check=%d nTime=%d\n", block.GetBlockTime() + getNStakeMinAge(), nTime);
 			continue; // count only coins meeting min age requirement
 		}
 
@@ -2398,7 +2394,7 @@ bool ProcessBlock(CNode* pfrom, CBlock* pblock)
 }
 
 #ifdef ENABLE_WALLET
-// HotShotCoin: attempt to generate suitable proof-of-stake
+// GloveCoin: attempt to generate suitable proof-of-stake
 bool CBlock::SignBlock(CWallet& wallet, int64_t nFees)
 {
 	// if we are trying to sign
@@ -2565,7 +2561,6 @@ bool LoadBlockIndex(bool fAllowNew)
 
 	if (TestNet())
 	{
-		nStakeMinAge = 600; // 10 minutes
 		nStakeMaxAge = 60 * 60 * 1; // 1 hour
 		nStakeMinConfirmations = 10;
 		nCoinbaseMaturity = 10; // test maturity is 10 blocks
@@ -2751,7 +2746,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-	RenameThread("HotShotCoin-loadblk");
+	RenameThread("GloveCoin-loadblk");
 
 	CImportingNow imp;
 

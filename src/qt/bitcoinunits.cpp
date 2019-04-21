@@ -34,9 +34,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("HTS");
-    case mBTC: return QString("mHTS");
-    case uBTC: return QString::fromUtf8("μHTS");
+    case BTC: return QString("GLOV");
+    case mBTC: return QString("mGLOV");
+    case uBTC: return QString::fromUtf8("μGLOV");
     default: return QString("???");
     }
 }
@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("HTSs");
-    case mBTC: return QString("Milli-HTS (1 / 1,000)");
-    case uBTC: return QString("Micro-HTS (1 / 1,000,000)");
+    case BTC: return QString("GLOVs");
+    case mBTC: return QString("Milli-GLOV (1 / 1,000)");
+    case uBTC: return QString("Micro-GLOV (1 / 1,000,000)");
     default: return QString("???");
     }
 }

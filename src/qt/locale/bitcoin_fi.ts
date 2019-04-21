@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About HotShotCoin</source>
-        <translation>Tietoa HotShotCoinista</translation>
+        <source>About GloveCoin</source>
+        <translation>Tietoa GloveCoinista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;HotShotCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;HotShotCoin&lt;/b&gt;-asiakasohjelman versio</translation>
+        <source>&lt;b&gt;GloveCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;GloveCoin&lt;/b&gt;-asiakasohjelman versio</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018 The HotShotCoin developers</source>
+Copyright © 2018 The GloveCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018 The HotShotCoin developers</translation>
+Copyright © 2018 The GloveCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -66,8 +66,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your HotShotCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat HotShotCoin-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
+        <source>These are your GloveCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat GloveCoin-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -81,8 +81,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a HotShotCoin address</source>
-        <translation>Allekirjoita viesti osoittaaksesi HotShotCoin-osoitteesi omistajuus</translation>
+        <source>Sign a message to prove you own a GloveCoin address</source>
+        <translation>Allekirjoita viesti osoittaaksesi GloveCoin-osoitteesi omistajuus</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -96,8 +96,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified HotShotCoin address</source>
-        <translation>Vahvista viesti varmistaaksesi että kyseinen HotShotCoin-osoitteesi on allekirjoittanut sen</translation>
+        <source>Verify a message to ensure it was signed with a specified GloveCoin address</source>
+        <translation>Vahvista viesti varmistaaksesi että kyseinen GloveCoin-osoitteesi on allekirjoittanut sen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -233,7 +233,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja hukkaat salasanasi, &lt;b&gt;MENETÄT KAIKKI HotShotCoinISI&lt;/b&gt;!</translation>
+        <translation>Varoitus: Jos salaat lompakkosi ja hukkaat salasanasi, &lt;b&gt;MENETÄT KAIKKI GloveCoinISI&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -264,8 +264,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+82"/>
-        <source>HotShotCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>HotShotCoin-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
+        <source>GloveCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>GloveCoin-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -358,8 +358,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about HotShotCoin</source>
-        <translation>Näytä tietoja HotShotCoinista</translation>
+        <source>Show information about GloveCoin</source>
+        <translation>Näytä tietoja GloveCoinista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -398,12 +398,12 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a HotShotCoin address</source>
-        <translation>Lähetä kolikoita HotShotCoin-osoitteeseen</translation>
+        <source>Send coins to a GloveCoin address</source>
+        <translation>Lähetä kolikoita GloveCoin-osoitteeseen</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for HotShotCoin</source>
+        <source>Modify configuration options for GloveCoin</source>
         <translation>Mukauta asiakasohjelman asetuksia</translation>
     </message>
     <message>
@@ -444,8 +444,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>HotShotCoin</source>
-        <translation>HotShotCoin</translation>
+        <source>GloveCoin</source>
+        <translation>GloveCoin</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -454,8 +454,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About HotShotCoin</source>
-        <translation>&amp;Tietoa HotShotCoinista</translation>
+        <source>&amp;About GloveCoin</source>
+        <translation>&amp;Tietoa GloveCoinista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -506,13 +506,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>HotShotCoin client</source>
-        <translation>HotShotCoin-asiakasohjelma</translation>
+        <source>GloveCoin client</source>
+        <translation>GloveCoin-asiakasohjelma</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to HotShotCoin network</source>
-        <translation><numerusform>%n aktiivinen yhteys HotShotCoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä HotShotCoin-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to GloveCoin network</source>
+        <translation><numerusform>%n aktiivinen yhteys GloveCoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä GloveCoin-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+6"/>
@@ -600,8 +600,8 @@ Osoite: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid HotShotCoin address or malformed URI parameters.</source>
-        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä HotShotCoin-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GloveCoin address or malformed URI parameters.</source>
+        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä GloveCoin-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. HotShotCoin can no longer continue safely and will quit.</source>
-        <translation>Virhe kohdattu. HotShotCoin-asiakasohjelma ei voi enää jatkaa turvallisesti ja se suljetaan.</translation>
+        <source>A fatal error occurred. GloveCoin can no longer continue safely and will quit.</source>
+        <translation>Virhe kohdattu. GloveCoin-asiakasohjelma ei voi enää jatkaa turvallisesti ja se suljetaan.</translation>
     </message>
 </context>
 <context>
@@ -999,8 +999,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid HotShotCoin address.</source>
-        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty HotShotCoin-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GloveCoin address.</source>
+        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty GloveCoin-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1018,8 +1018,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>HotShotCoin-Qt</source>
-        <translation>HotShotCoin-Qt</translation>
+        <source>GloveCoin-Qt</source>
+        <translation>GloveCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1091,13 +1091,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start HotShotCoin after logging in to the system.</source>
-        <translation>Käynnistä HotShotCoin-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
+        <source>Automatically start GloveCoin after logging in to the system.</source>
+        <translation>Käynnistä GloveCoin-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start HotShotCoin on system login</source>
-        <translation>%Käynnistä HotShotCoin-asiakasohjelma kirjautuessasi</translation>
+        <source>&amp;Start GloveCoin on system login</source>
+        <translation>%Käynnistä GloveCoin-asiakasohjelma kirjautuessasi</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1106,8 +1106,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the HotShotCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa HotShotCoin-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
+        <source>Automatically open the GloveCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa GloveCoin-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1136,8 +1136,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the HotShotCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
-        <translation>Yhdistä HotShotCoin-verkkoon SOCKS5-välityspalvelimen kautta (esim. kun yhdistetään Tor:lla).</translation>
+        <source>Connect to the GloveCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <translation>Yhdistä GloveCoin-verkkoon SOCKS5-välityspalvelimen kautta (esim. kun yhdistetään Tor:lla).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1181,8 +1181,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting HotShotCoin.</source>
-        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta HotShotCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GloveCoin.</source>
+        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta GloveCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1238,8 +1238,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting HotShotCoin.</source>
-        <translation>Tämä asetus tulee voimaan vasta HotShotCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>This setting will take effect after restarting GloveCoin.</source>
+        <translation>Tämä asetus tulee voimaan vasta GloveCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1257,8 +1257,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HotShotCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti HotShotCoin-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GloveCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti GloveCoin-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1331,8 +1331,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start hotshotcoin: click-to-pay handler</source>
-        <translation>HotShotCoin-asiakasohjelmaa ei voida käynnistää: klikkaa maksaaksesi-käsittelijä</translation>
+        <source>Cannot start glovecoin: click-to-pay handler</source>
+        <translation>GloveCoin-asiakasohjelmaa ei voida käynnistää: klikkaa maksaaksesi-käsittelijä</translation>
     </message>
 </context>
 <context>
@@ -1501,8 +1501,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the HotShotCoin-Qt help message to get a list with possible HotShotCoin command-line options.</source>
-        <translation>Näytä HotShotCoin-Qt:n avustusohje saadaksesi listan käytettävistä HotShotCoinin komentokehotteen määritteistä.</translation>
+        <source>Show the GloveCoin-Qt help message to get a list with possible GloveCoin command-line options.</source>
+        <translation>Näytä GloveCoin-Qt:n avustusohje saadaksesi listan käytettävistä GloveCoinin komentokehotteen määritteistä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1521,13 +1521,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>HotShotCoin - Debug window</source>
-        <translation>HotShotCoin - Debug-ikkuna</translation>
+        <source>GloveCoin - Debug window</source>
+        <translation>GloveCoin - Debug-ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>HotShotCoin Core</source>
-        <translation>HotShotCoinin ydin</translation>
+        <source>GloveCoin Core</source>
+        <translation>GloveCoinin ydin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1536,8 +1536,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the HotShotCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa HotShotCoin-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
+        <source>Open the GloveCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa GloveCoin-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1546,8 +1546,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the HotShotCoin RPC console.</source>
-        <translation>Tervetuloa HotShotCoinin RPC-konsoliin.</translation>
+        <source>Welcome to the GloveCoin RPC console.</source>
+        <translation>Tervetuloa GloveCoinin RPC-konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1607,7 +1607,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Lähetä HotShotCoineja</translation>
+        <translation>Lähetä GloveCoineja</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1717,8 +1717,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Syötä HotShotCoin-osoite (esim. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a GloveCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Syötä GloveCoin-osoite (esim. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1812,8 +1812,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid HotShotCoin address</source>
-        <translation>VAROITUS: Epäkelpo HotShotCoin-osoite</translation>
+        <source>WARNING: Invalid GloveCoin address</source>
+        <translation>VAROITUS: Epäkelpo GloveCoin-osoite</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1886,8 +1886,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Syötä HotShotCoin-osoite (esim. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a GloveCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Syötä GloveCoin-osoite (esim. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
 </context>
 <context>
@@ -1947,8 +1947,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this HotShotCoin address</source>
-        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän HotShotCoin-osoitteen</translation>
+        <source>Sign the message to prove you own this GloveCoin address</source>
+        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän GloveCoin-osoitteen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1979,8 +1979,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified HotShotCoin address</source>
-        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä HotShotCoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified GloveCoin address</source>
+        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä GloveCoin-osoitteella</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1990,8 +1990,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Syötä HotShotCoin-osoite (esim. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a GloveCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Syötä GloveCoin-osoite (esim. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2000,8 +2000,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter HotShotCoin signature</source>
-        <translation>Syötä HotShotCoin-allekirjoitus</translation>
+        <source>Enter GloveCoin signature</source>
+        <translation>Syötä GloveCoin-allekirjoitus</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2579,8 +2579,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>HotShotCoin version</source>
-        <translation>HotShotCoinin versio</translation>
+        <source>GloveCoin version</source>
+        <translation>GloveCoinin versio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2589,8 +2589,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or hotshotcoind</source>
-        <translation>Syötä komento kohteeseen -server tai hotshotcoind</translation>
+        <source>Send command to -server or glovecoind</source>
+        <translation>Syötä komento kohteeseen -server tai glovecoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2609,13 +2609,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: hotshotcoin.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: hotshotcoin.conf)</translation>
+        <source>Specify configuration file (default: glovecoin.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: glovecoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: hotshotcoind.pid)</source>
-        <translation>Määritä prosessitiedosto (oletus: hotshotcoin.pid)</translation>
+        <source>Specify pid file (default: glovecoind.pid)</source>
+        <translation>Määritä prosessitiedosto (oletus: glovecoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2632,21 +2632,21 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=hotshotcoinrpc
+rpcuser=glovecoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GloveCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, sinun on asetettava rpcpassword asetustiedostoon:
 %s
-On suositeltavaa, että käytät seuraavaa arvottua salasanaa: rpcuser=hotshotcoinrpc
+On suositeltavaa, että käytät seuraavaa arvottua salasanaa: rpcuser=glovecoinrpc
 rpcpassword=%s
 (Sinun ei tarvitse muistaa tätä salasanaa) Käyttäjänimen ja salasanan EI TULE OLLA SAMOJA.
 Jos tiedostoa ei ole olemassa, luo se asettaen samalla omistajan lukuoikeudet.
-On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@foo.com
+On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;GloveCoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2661,8 +2661,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 22063 or testnet: 58200)</source>
-        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: 22063 tai testiverkko: 58200)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 22064 or testnet: 58200)</source>
+        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: 22064 tai testiverkko: 58200)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2711,8 +2711,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="-126"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 22073 or testnet: 27058)</source>
-        <translation>Kuuntele JSON-RPC-yhteyksiä portissa &lt;port&gt; (oletus: 22073 tai testiverkko: 27058)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 22074 or testnet: 27058)</source>
+        <translation>Kuuntele JSON-RPC-yhteyksiä portissa &lt;port&gt; (oletus: 22074 tai testiverkko: 27058)</translation>
     </message>
     <message>
         <location line="-16"/>
@@ -2746,8 +2746,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HotShotCoin will not work properly.</source>
-        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, HotShotCoin ei toimi oikein.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GloveCoin will not work properly.</source>
+        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, GloveCoin ei toimi oikein.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3041,8 +3041,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. HotShotCoin is shutting down.</source>
-        <translation>Käyttöönottotarkistus epäonnistui. HotShotCoin-asiakasohjelma suljetaan.</translation>
+        <source>Initialization sanity check failed. GloveCoin is shutting down.</source>
+        <translation>Käyttöönottotarkistus epäonnistui. GloveCoin-asiakasohjelma suljetaan.</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -3096,13 +3096,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of HotShotCoin</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version HotShotCoin-asiakasohjelmasta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of GloveCoin</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version GloveCoin-asiakasohjelmasta</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart HotShotCoin to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä HotShotCoin-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
+        <source>Wallet needed to be rewritten: restart GloveCoin to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä GloveCoin-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3161,8 +3161,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. HotShotCoin is probably already running.</source>
-        <translation>Ei voitu liittää %s tällä tietokoneella. HotShotCoin-asiakasohjelma on jo ehkä päällä.</translation>
+        <source>Unable to bind to %s on this computer. GloveCoin is probably already running.</source>
+        <translation>Ei voitu liittää %s tällä tietokoneella. GloveCoin-asiakasohjelma on jo ehkä päällä.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3191,8 +3191,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. HotShotCoin is probably already running.</source>
-        <translation>Lukkotiedostoa ei voida saada haltuun datahakemistossa %s. HotShotCoin on ehkä jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s. GloveCoin is probably already running.</source>
+        <translation>Lukkotiedostoa ei voida saada haltuun datahakemistossa %s. GloveCoin on ehkä jo käynnissä.</translation>
     </message>
     <message>
         <location line="+4"/>

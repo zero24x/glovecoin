@@ -47,11 +47,11 @@ static const int64_t MIN_TX_FEE = 10000;
 /** Fees smaller than this (in satoshi) are considered zero fee (for relaying) */
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 /** No amount larger than this (in satoshi) is valid */
-static const int64_t MAX_MONEY = 200000000 * COIN;
+static const int64_t MAX_MONEY = 4600000 * COIN;
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
-static const char* FUND_ADRESS = "H8KUPnCFMgonXz9fdk5u1yU3WGiSBm7KrZ";
+static const char* FUND_ADRESS = "GJhVXtt77pjzjxyr7X3eDVnpUTbiLcPoGS";
 
 //Code to reduce block reward yearly by 10%
 inline int64_t GetCoinYearReward(int nHeight) {
@@ -101,7 +101,6 @@ extern std::map<uint256, CBlockIndex*> mapBlockIndex;
 extern std::set<std::pair<COutPoint, unsigned int> > setStakeSeen;
 extern CBlockIndex* pindexGenesisBlock;
 extern int nStakeMinConfirmations;
-extern unsigned int nStakeMinAge;
 extern unsigned int nNodeLifespan;
 extern int nCoinbaseMaturity;
 extern int nBestHeight;
@@ -163,6 +162,7 @@ void ThreadImport(std::vector<boost::filesystem::path> vImportFiles);
 
 bool CheckProofOfWork(uint256 hash, unsigned int nBits);
 unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfStake);
+int getNStakeMinAge();
 int64_t GetProofOfWorkReward(int nHeight, int64_t nFees);
 uint64_t GetProofOfStakeReward(int nHeight, uint64_t nCoinAge, int64_t nFees);
 CBigNum GetWeightSpent(CBlockIndex* pindex);

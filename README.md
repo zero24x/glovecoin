@@ -1,8 +1,8 @@
-HotShotCoin is a PoW+PoS cryptocurrency that will be PoS only after block 43200
+GloveCoin is a PoW+PoS cryptocurrency that will be PoS only after block 43200
 
-Name: HotShotCoin  
+Name: GloveCoin  
 
-Short name: HTS  
+Short name: GLOV  
 
 Algo: Scrypt  
 
@@ -10,47 +10,22 @@ Block time: 3 Minutes
  
 Masternodes: No  
 
-Ports: P2P 22063, RPC 22073
+Ports: P2P 22064, RPC 22074
 
-Mining: PoW+PoS until block 43200 (about 3 months), after that PoS only  
+Mining: PoS
 
 Coinbase maturity: 10 Blocks  
 
-Min stake age: 9h  
+Min stake age: 1h until block 14 400 (1month), after that 12h 
 
-Max stake age: 3d  
+Max stake age: 3d
 
 Recommended confirmations: 10 Blocks  
 
-Premine: 4 000 000  
+Premine: 900 000 GLOV
 
-Max supply: 200 000 000  
+Max supply: 4 600 000 GLOV
 
-## PoW Block rewards
+## Block rewards: 
 
-| Block | Reward |
-|-------|-----|
-|1-1,000 | 5 |
-|1,001-5,000 | 20 |
-|5,001-10,000 | 10 |
-|10,001-43,200 | 0.00004 |
-
-## PoS Block rewards: 
-
-| Block | APR |
-|-------|-----|
-|1 - 4,000| 50%  |
-|4,001 - 20,000 | 600%  |
-|20,001 - 40,000 | 	550%  |
-|40,001 - 50,000  |	500%  |
-|50,001 - 60,000  |	450%  |
-|60,001 - 70,000  |	400%  |
-|70,001 - 80,000  |	350%  |
-|80,001 - 90,000  |	300%  |
-|90,001 - 100,000  |	250%  |
-|100,001 - 110,000  |	200%  |
-|110,001 - 120,000  |	150%  |
-|120,001 - 130,000  |	100%  |
-|130,001 - 140,000  |	75%  |
-|140,001 +  |	50%  |
-
+2 GLOV (1.5 POS/ 0.5 dev fund)

@@ -720,7 +720,7 @@ void CoinControlDialog::updateView()
             uint64_t nTxWeight;
             model->getStakeWeightFromValue(out.tx->GetTxTime(), out.tx->vout[out.i].nValue, nTxWeight);
 
-            double dStakeAge = nStakeMinAge;
+            double dStakeAge = getNStakeMinAge();
 
             if ((GetTime() - out.tx->GetTxTime()) < dStakeAge)
                 nDisplayWeight = 0;

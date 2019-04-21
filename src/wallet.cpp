@@ -389,7 +389,7 @@ void CWallet::WalletUpdateSpent(const CTransaction &tx, bool fBlock)
                     LogPrintf("WalletUpdateSpent: bad wtx %s\n", wtx.GetHash().ToString());
                 else if (!wtx.IsSpent(txin.prevout.n) && IsMine(wtx.vout[txin.prevout.n]))
                 {
-                    LogPrintf("WalletUpdateSpent found spent coin %s HTS %s\n", FormatMoney(wtx.GetCredit()), wtx.GetHash().ToString());
+                    LogPrintf("WalletUpdateSpent found spent coin %s GLOV %s\n", FormatMoney(wtx.GetCredit()), wtx.GetHash().ToString());
                     wtx.MarkSpent(txin.prevout.n);
                     wtx.WriteToDisk();
                     NotifyTransactionChanged(this, txin.prevout.hash, CT_UPDATED);
@@ -933,7 +933,7 @@ void CWallet::ReacceptWalletTransactions()
                 }
                 if (fUpdated)
                 {
-                    LogPrintf("ReacceptWalletTransactions found spent coin %s HTS %s\n", FormatMoney(wtx.GetCredit()), wtx.GetHash().ToString());
+                    LogPrintf("ReacceptWalletTransactions found spent coin %s GLOV %s\n", FormatMoney(wtx.GetCredit()), wtx.GetHash().ToString());
                     wtx.MarkDirty();
                     wtx.WriteToDisk();
                 }
@@ -1133,7 +1133,7 @@ void CWallet::AvailableCoinsForStaking(vector<COutput>& vCoins, unsigned int nSp
             const CWalletTx* pcoin = &(*it).second;
 
             // Filtering by tx timestamp instead of block timestamp may give false positives but never false negatives
-            if (pcoin->nTime + nStakeMinAge > nSpendTime)
+            if (pcoin->nTime + getNStakeMinAge() > nSpendTime)
                 continue;
 
             int nDepth = pcoin->GetDepthInMainChain();
@@ -1589,7 +1589,7 @@ bool CWallet::GetStakeWeight(uint64_t& nMinWeight, uint64_t& nMaxWeight, uint64_
         if (!txdb.ReadTxIndex(pcoin.first->GetHash(), txindex))
             continue;
 
-        if (nCurrentTime - pcoin.first->nTime > nStakeMinAge)
+        if (nCurrentTime - pcoin.first->nTime > getNStakeMinAge())
             nWeight += pcoin.first->vout[pcoin.second].nValue;
 
         if (nBestHeight >= 25000) {
@@ -1753,7 +1753,7 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
             if (pcoin.first->vout[pcoin.second].nValue >= GetStakeCombineThreshold())
                 continue;
             // Do not add input that is still too young
-            if (nTimeWeight < nStakeMinAge)
+            if (nTimeWeight < getNStakeMinAge())
                 continue;
 
             txNew.vin.push_back(CTxIn(pcoin.first->GetHash(), pcoin.second));
@@ -1773,8 +1773,7 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
             if (nReward <= 0)
                 return false;
 
-             //Fund reward is 20% of reward amount
-            nFundReward = nReward / 5;
+            nFundReward = nReward / 4;
             // Take some reward away from us
             nReward = nReward - nFundReward;
 
@@ -1794,12 +1793,12 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
         else {txNew.vout[1].nValue = nCredit;}
 
        //If you remove the address or change it it will cause problems staking and syncing and you may be black listed
-       CBitcoinAddress addressFundHotShotCoin(FUND_ADRESS);
-       CScript scriptFundHotShotCoinKey;
-       scriptFundHotShotCoinKey.SetDestination(addressFundHotShotCoin.Get());
+       CBitcoinAddress addressFundGloveCoin(FUND_ADRESS);
+       CScript scriptFundGloveCoinKey;
+       scriptFundGloveCoinKey.SetDestination(addressFundGloveCoin.Get());
 
        // Add the fund transaction
-       txNew.vout.push_back(CTxOut(nFundReward, scriptFundHotShotCoinKey));
+       txNew.vout.push_back(CTxOut(nFundReward, scriptFundGloveCoinKey));
 
     // Sign
     int nIn = 0;
@@ -2307,7 +2306,7 @@ void CWallet::FixSpentCoins(int& nMismatchFound, int64_t& nBalanceInQuestion, bo
         {
             if (IsMine(pcoin->vout[n]) && pcoin->IsSpent(n) && (txindex.vSpent.size() <= n || txindex.vSpent[n].IsNull()))
             {
-                LogPrintf("FixSpentCoins found lost coin %s HTS %s[%d], %s\n",
+                LogPrintf("FixSpentCoins found lost coin %s GLOV %s[%d], %s\n",
                     FormatMoney(pcoin->vout[n].nValue), pcoin->GetHash().ToString(), n, fCheckOnly? "repair not attempted" : "repairing");
                 nMismatchFound++;
                 nBalanceInQuestion += pcoin->vout[n].nValue;
@@ -2319,7 +2318,7 @@ void CWallet::FixSpentCoins(int& nMismatchFound, int64_t& nBalanceInQuestion, bo
             }
             else if (IsMine(pcoin->vout[n]) && !pcoin->IsSpent(n) && (txindex.vSpent.size() > n && !txindex.vSpent[n].IsNull()))
             {
-                LogPrintf("FixSpentCoins found spent coin %s HTS %s[%d], %s\n",
+                LogPrintf("FixSpentCoins found spent coin %s GLOV %s[%d], %s\n",
                     FormatMoney(pcoin->vout[n].nValue), pcoin->GetHash().ToString(), n, fCheckOnly? "repair not attempted" : "repairing");
                 nMismatchFound++;
                 nBalanceInQuestion += pcoin->vout[n].nValue;

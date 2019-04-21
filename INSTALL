@@ -1,9 +1,9 @@
-Building HotShotCoin
+Building GloveCoin
 
-See doc/readme-qt.rst for instructions on building HotShotCoin QT,
+See doc/readme-qt.rst for instructions on building GloveCoin QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of HotShotCoin.
+implementation of GloveCoin.
 
-See doc/build-*.txt for instructions on building hotshotcoind,
+See doc/build-*.txt for instructions on building glovecoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of HotShotCoin.
+implementation of GloveCoin.

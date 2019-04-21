@@ -3,24 +3,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About HotShotCoin</source>
-        <translation>Despre HotShotCoin</translation>
+        <source>About GloveCoin</source>
+        <translation>Despre GloveCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;HotShotCoin&lt;/b&gt; version</source>
-        <translation>Versiune &lt;b&gt;HotShotCoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;GloveCoin&lt;/b&gt; version</source>
+        <translation>Versiune &lt;b&gt;GloveCoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2018 The ShardCoin developers
-Copyright © 2018 The HotShotCoin developers</source>
+Copyright © 2018 The GloveCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2018 The ShardCoin developers
-Copyright © 2018 The HotShotCoin developers</translation>
+Copyright © 2018 The GloveCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your HotShotCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Acestea sunt adresele HotShotCoin pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
+        <source>These are your GloveCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Acestea sunt adresele GloveCoin pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -77,8 +77,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a HotShotCoin address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă HotShotCoin</translation>
+        <source>Sign a message to prove you own a GloveCoin address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă GloveCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -92,8 +92,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified HotShotCoin address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă HotShotCoin</translation>
+        <source>Verify a message to ensure it was signed with a specified GloveCoin address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă GloveCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -260,8 +260,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>HotShotCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>HotShotCoin se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
+        <source>GloveCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>GloveCoin se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -354,8 +354,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about HotShotCoin</source>
-        <translation>Arată informații despre HotShotCoin</translation>
+        <source>Show information about GloveCoin</source>
+        <translation>Arată informații despre GloveCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -394,13 +394,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a HotShotCoin address</source>
-        <translation>Trimite monede către o adresă HotShotCoin</translation>
+        <source>Send coins to a GloveCoin address</source>
+        <translation>Trimite monede către o adresă GloveCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for HotShotCoin</source>
-        <translation>Modifică opțiuni de configurare pentru HotShotCoin</translation>
+        <source>Modify configuration options for GloveCoin</source>
+        <translation>Modifică opțiuni de configurare pentru GloveCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -440,8 +440,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>HotShotCoin</source>
-        <translation>HotShotCoin</translation>
+        <source>GloveCoin</source>
+        <translation>GloveCoin</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -450,8 +450,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About HotShotCoin</source>
-        <translation>Despre HotShotCoin</translation>
+        <source>&amp;About GloveCoin</source>
+        <translation>Despre GloveCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -502,13 +502,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>HotShotCoin client</source>
-        <translation>Clientul HotShotCoin</translation>
+        <source>GloveCoin client</source>
+        <translation>Clientul GloveCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to HotShotCoin network</source>
-        <translation><numerusform>%n conexiune activă la reteaua HotShotCoin</numerusform><numerusform>%n conexiuni active la reteaua HotShotCoin</numerusform><numerusform>%n conexiuni active la reteaua HotShotCoin</numerusform></translation>
+        <source>%n active connection(s) to GloveCoin network</source>
+        <translation><numerusform>%n conexiune activă la reteaua GloveCoin</numerusform><numerusform>%n conexiuni active la reteaua GloveCoin</numerusform><numerusform>%n conexiuni active la reteaua GloveCoin</numerusform></translation>
     </message>
     <message>
         <location line="+6"/>
@@ -597,8 +597,8 @@ Adresa: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid HotShotCoin address or malformed URI parameters.</source>
-        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa HotShotCoin invalidă sau parametrii URI malformați.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid GloveCoin address or malformed URI parameters.</source>
+        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa GloveCoin invalidă sau parametrii URI malformați.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -720,8 +720,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. HotShotCoin can no longer continue safely and will quit.</source>
-        <translation>A apărut o eroare fatală. HotShotCoin nu mai poate continua în condiții de siguranță și va iesi.</translation>
+        <source>A fatal error occurred. GloveCoin can no longer continue safely and will quit.</source>
+        <translation>A apărut o eroare fatală. GloveCoin nu mai poate continua în condiții de siguranță și va iesi.</translation>
     </message>
 </context>
 <context>
@@ -996,8 +996,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid HotShotCoin address.</source>
-        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă HotShotCoin validă</translation>
+        <source>The entered address &quot;%1&quot; is not a valid GloveCoin address.</source>
+        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă GloveCoin validă</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1015,8 +1015,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>HotShotCoin-Qt</source>
-        <translation>HotShotCoin-Qt</translation>
+        <source>GloveCoin-Qt</source>
+        <translation>GloveCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1088,13 +1088,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start HotShotCoin after logging in to the system.</source>
-        <translation>Pornește HotShotCoin imdiat după logarea în sistem</translation>
+        <source>Automatically start GloveCoin after logging in to the system.</source>
+        <translation>Pornește GloveCoin imdiat după logarea în sistem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start HotShotCoin on system login</source>
-        <translation>$Pornește HotShotCoin la logarea în sistem</translation>
+        <source>&amp;Start GloveCoin on system login</source>
+        <translation>$Pornește GloveCoin la logarea în sistem</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1103,8 +1103,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the HotShotCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat portul pentru cientul HotShotCoin pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
+        <source>Automatically open the GloveCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat portul pentru cientul GloveCoin pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1133,7 +1133,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the HotShotCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the GloveCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1178,8 +1178,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting HotShotCoin.</source>
-        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea HotShotCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting GloveCoin.</source>
+        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea GloveCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1235,8 +1235,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting HotShotCoin.</source>
-        <translation>Aceasta setare va avea efect dupa repornirea HotShotCoin.</translation>
+        <source>This setting will take effect after restarting GloveCoin.</source>
+        <translation>Aceasta setare va avea efect dupa repornirea GloveCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1254,8 +1254,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HotShotCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua HotShotCoin după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GloveCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua GloveCoin după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1328,7 +1328,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start hotshotcoin: click-to-pay handler</source>
+        <source>Cannot start glovecoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1498,8 +1498,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the HotShotCoin-Qt help message to get a list with possible HotShotCoin command-line options.</source>
-        <translation>Afișa mesajul de ajutor HotShotCoin-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă HotShotCoin.</translation>
+        <source>Show the GloveCoin-Qt help message to get a list with possible GloveCoin command-line options.</source>
+        <translation>Afișa mesajul de ajutor GloveCoin-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă GloveCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1518,13 +1518,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>HotShotCoin - Debug window</source>
-        <translation>HotShotCoin - fereastră depanare</translation>
+        <source>GloveCoin - Debug window</source>
+        <translation>GloveCoin - fereastră depanare</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>HotShotCoin Core</source>
-        <translation>HotShotCoin Core</translation>
+        <source>GloveCoin Core</source>
+        <translation>GloveCoin Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1533,8 +1533,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the HotShotCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Deschideti fisierul de depanare HotShotCoin din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
+        <source>Open the GloveCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Deschideti fisierul de depanare GloveCoin din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1543,8 +1543,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the HotShotCoin RPC console.</source>
-        <translation>Bine ati venit la consola HotShotCoin RPC.</translation>
+        <source>Welcome to the GloveCoin RPC console.</source>
+        <translation>Bine ati venit la consola GloveCoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1714,8 +1714,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Introduceți o adresă HotShotCoin(ex:DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a GloveCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Introduceți o adresă GloveCoin(ex:DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1809,8 +1809,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid HotShotCoin address</source>
-        <translation>Atenție: Adresă HotShotCoin invalidă</translation>
+        <source>WARNING: Invalid GloveCoin address</source>
+        <translation>Atenție: Adresă GloveCoin invalidă</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1883,8 +1883,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Introduceți o adresă HotShotCoin(ex:DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a GloveCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Introduceți o adresă GloveCoin(ex:DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
 </context>
 <context>
@@ -1944,8 +1944,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this HotShotCoin address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă HotShotCoin</translation>
+        <source>Sign the message to prove you own this GloveCoin address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă GloveCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1976,8 +1976,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified HotShotCoin address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă HotShotCoin</translation>
+        <source>Verify the message to ensure it was signed with the specified GloveCoin address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă GloveCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1987,8 +1987,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
-        <translation>Introduceți o adresă HotShotCoin(ex:DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
+        <source>Enter a GloveCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <translation>Introduceți o adresă GloveCoin(ex:DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1997,8 +1997,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter HotShotCoin signature</source>
-        <translation>Introduceti semnatura HotShotCoin</translation>
+        <source>Enter GloveCoin signature</source>
+        <translation>Introduceti semnatura GloveCoin</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2576,8 +2576,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>HotShotCoin version</source>
-        <translation>Versiune HotShotCoin</translation>
+        <source>GloveCoin version</source>
+        <translation>Versiune GloveCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2586,8 +2586,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or hotshotcoind</source>
-        <translation>Trimite comanda catre server sau hotshotcoind</translation>
+        <source>Send command to -server or glovecoind</source>
+        <translation>Trimite comanda catre server sau glovecoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2606,13 +2606,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: hotshotcoin.conf)</source>
-        <translation>Specifica fisier de configurare(implicit: hotshotcoin.conf)</translation>
+        <source>Specify configuration file (default: glovecoin.conf)</source>
+        <translation>Specifica fisier de configurare(implicit: glovecoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: hotshotcoind.pid)</source>
-        <translation>Speficica fisier pid(implicit: hotshotcoin.pid)</translation>
+        <source>Specify pid file (default: glovecoind.pid)</source>
+        <translation>Speficica fisier pid(implicit: glovecoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2629,13 +2629,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=hotshotcoinrpc
+rpcuser=glovecoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GloveCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2651,8 +2651,8 @@ for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 22063 or testnet: 58200)</source>
-        <translation>Ascultă pentru conectări pe &lt;port&gt; (implicit:  22063 sau testnet: 58200) </translation>
+        <source>Listen for connections on &lt;port&gt; (default: 22064 or testnet: 58200)</source>
+        <translation>Ascultă pentru conectări pe &lt;port&gt; (implicit:  22064 sau testnet: 58200) </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2701,8 +2701,8 @@ for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="-126"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 22073 or testnet: 27058)</source>
-        <translation>Ascultă pentru conexiuni JSON-RPC pe &lt;port&gt; (implicit:22073 sau testnet: 27058)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 22074 or testnet: 27058)</source>
+        <translation>Ascultă pentru conexiuni JSON-RPC pe &lt;port&gt; (implicit:22074 sau testnet: 27058)</translation>
     </message>
     <message>
         <location line="-16"/>
@@ -2736,8 +2736,8 @@ for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HotShotCoin will not work properly.</source>
-        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit HotShotCoin nu va functiona corect.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GloveCoin will not work properly.</source>
+        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit GloveCoin nu va functiona corect.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3031,7 +3031,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. HotShotCoin is shutting down.</source>
+        <source>Initialization sanity check failed. GloveCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3086,13 +3086,13 @@ for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of HotShotCoin</source>
-        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de HotShotCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of GloveCoin</source>
+        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de GloveCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart HotShotCoin to complete</source>
-        <translation>A fost nevoie de rescrierea portofelului: restartați HotShotCoin pentru a finaliza</translation>
+        <source>Wallet needed to be rewritten: restart GloveCoin to complete</source>
+        <translation>A fost nevoie de rescrierea portofelului: restartați GloveCoin pentru a finaliza</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3151,8 +3151,8 @@ for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. HotShotCoin is probably already running.</source>
-        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil HotShotCoin ruleaza</translation>
+        <source>Unable to bind to %s on this computer. GloveCoin is probably already running.</source>
+        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil GloveCoin ruleaza</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3181,7 +3181,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. HotShotCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. GloveCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

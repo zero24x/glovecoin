@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About HotShotCoin</source>
+        <source>About GloveCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;HotShotCoin&lt;/b&gt; version</source>
+        <source>&lt;b&gt;GloveCoin&lt;/b&gt; version</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The HotShotCoin developers</source>
+Copyright © 2014 The GloveCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -58,7 +58,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your HotShotCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your GloveCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -73,7 +73,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a HotShotCoin address</source>
+        <source>Sign a message to prove you own a GloveCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -88,7 +88,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified HotShotCoin address</source>
+        <source>Verify a message to ensure it was signed with a specified GloveCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -256,7 +256,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>HotShotCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>GloveCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -350,7 +350,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about HotShotCoin</source>
+        <source>Show information about GloveCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -390,12 +390,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a HotShotCoin address</source>
+        <source>Send coins to a GloveCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for HotShotCoin</source>
+        <source>Modify configuration options for GloveCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -436,7 +436,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>HotShotCoin</source>
+        <source>GloveCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -446,7 +446,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About HotShotCoin</source>
+        <source>&amp;About GloveCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -498,12 +498,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>HotShotCoin client</source>
+        <source>GloveCoin client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to HotShotCoin network</source>
+        <source>%n active connection(s) to GloveCoin network</source>
         <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
@@ -592,7 +592,7 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid HotShotCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid GloveCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -715,7 +715,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. HotShotCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. GloveCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -981,7 +981,7 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid HotShotCoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid GloveCoin address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1000,7 +1000,7 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>HotShotCoin-Qt</source>
+        <source>GloveCoin-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1073,12 +1073,12 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start HotShotCoin after logging in to the system.</source>
+        <source>Automatically start GloveCoin after logging in to the system.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start HotShotCoin on system login</source>
+        <source>&amp;Start GloveCoin on system login</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1088,7 +1088,7 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the HotShotCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the GloveCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1118,7 +1118,7 @@ Address: %4
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the HotShotCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the GloveCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1163,7 +1163,7 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting HotShotCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting GloveCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1220,7 +1220,7 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting HotShotCoin.</source>
+        <source>This setting will take effect after restarting GloveCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1239,7 +1239,7 @@ Address: %4
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the HotShotCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GloveCoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1313,7 +1313,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start hotshotcoin: click-to-pay handler</source>
+        <source>Cannot start glovecoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1483,7 +1483,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the HotShotCoin-Qt help message to get a list with possible HotShotCoin command-line options.</source>
+        <source>Show the GloveCoin-Qt help message to get a list with possible GloveCoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1503,12 +1503,12 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>HotShotCoin - Debug window</source>
+        <source>GloveCoin - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>HotShotCoin Core</source>
+        <source>GloveCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1518,7 +1518,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the HotShotCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the GloveCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1528,7 +1528,7 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the HotShotCoin RPC console.</source>
+        <source>Welcome to the GloveCoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1699,7 +1699,7 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <source>Enter a GloveCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1794,7 +1794,7 @@ Address: %4
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid HotShotCoin address</source>
+        <source>WARNING: Invalid GloveCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1868,7 +1868,7 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <source>Enter a GloveCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1929,7 +1929,7 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this HotShotCoin address</source>
+        <source>Sign the message to prove you own this GloveCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1961,7 +1961,7 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified HotShotCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified GloveCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1972,7 +1972,7 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
+        <source>Enter a GloveCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1982,7 +1982,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter HotShotCoin signature</source>
+        <source>Enter GloveCoin signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2561,7 +2561,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>HotShotCoin version</source>
+        <source>GloveCoin version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2571,7 +2571,7 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or hotshotcoind</source>
+        <source>Send command to -server or glovecoind</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2591,12 +2591,12 @@ Address: %4
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: hotshotcoin.conf)</source>
+        <source>Specify configuration file (default: glovecoin.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: hotshotcoind.pid)</source>
+        <source>Specify pid file (default: glovecoind.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2614,13 +2614,13 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=hotshotcoinrpc
+rpcuser=glovecoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;GloveCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2636,7 +2636,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 22063 or testnet: 58200)</source>
+        <source>Listen for connections on &lt;port&gt; (default: 22064 or testnet: 58200)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2686,7 +2686,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="-126"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 22073 or testnet: 27058)</source>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 22074 or testnet: 27058)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2721,7 +2721,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong HotShotCoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GloveCoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3016,7 +3016,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. HotShotCoin is shutting down.</source>
+        <source>Initialization sanity check failed. GloveCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3071,12 +3071,12 @@ for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of HotShotCoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of GloveCoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart HotShotCoin to complete</source>
+        <source>Wallet needed to be rewritten: restart GloveCoin to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3136,7 +3136,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. HotShotCoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. GloveCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3166,7 +3166,7 @@ for example: alertnotify=echo %%s | mail -s &quot;HotShotCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. HotShotCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. GloveCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

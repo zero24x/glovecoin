@@ -918,7 +918,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "hotshotcoin";
+    const char* pszModule = "glovecoin";
 #endif
     if (pex)
         return strprintf(
@@ -948,13 +948,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\HotShotCoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\HotShotCoin
-    // Mac: ~/Library/Application Support/HotShotCoin
-    // Unix: ~/.hotshotcoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\GloveCoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\GloveCoin
+    // Mac: ~/Library/Application Support/GloveCoin
+    // Unix: ~/.glovecoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "HotShotCoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "GloveCoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -966,10 +966,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "HotShotCoin";
+    return pathRet / "GloveCoin";
 #else
     // Unix
-    return pathRet / ".hotshotcoin";
+    return pathRet / ".glovecoin";
 #endif
 #endif
 }
@@ -1018,7 +1018,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "hotshotcoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "glovecoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1051,7 +1051,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "hotshotcoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "glovecoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

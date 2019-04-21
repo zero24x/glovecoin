@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
 	if (self == [NSBundle mainBundle]) {
-		return @"com.hotshotcoin.HotShotCoin-qt";
+		return @"com.glovecoin.GloveCoin-qt";
 	} else {
 		return [self __bundleIdentifier];
 	}

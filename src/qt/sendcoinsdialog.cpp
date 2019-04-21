@@ -36,7 +36,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
 
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a HotShotCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)"));
+    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a GloveCoin address (e.g. DPpauUHW4ksipzUQhKKVAxscM6UonAAjhX)"));
     ui->splitBlockLineEdit->setPlaceholderText(tr("# of Blocks"));
     ui->splitBlockCheckBox->setToolTip(tr("Enable/Disable Block Splitting"));
 #endif
@@ -538,7 +538,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString & text)
         else if (!CBitcoinAddress(text.toStdString()).IsValid())
         {
             ui->labelCoinControlChangeLabel->setStyleSheet("QLabel{color:red;}");
-            ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid HotShotCoin address"));
+            ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid GloveCoin address"));
         }
         else
         {

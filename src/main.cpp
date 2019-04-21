@@ -995,7 +995,7 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 
 	// Premine
 	if(nHeight+1 == 1) {
-		nSubsidy = 4000000 * COIN;
+		nSubsidy = 900000 * COIN;
 	}
 
 	if (fDebug) {

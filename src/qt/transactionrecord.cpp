@@ -62,19 +62,29 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
                     // Generated (proof-of-work)
                     sub.type = TransactionRecord::Generated;
                 }
-                if (wtx.IsCoinStake())
+
                 {
-                    // Generated (proof-of-stake)
+                	// Generated (proof-of-stake)
 
-                    if (hashPrev == hash)
-                        continue; // last coinstake output
+                	if (hashPrev == hash)
+                		continue; // last coinstake output
 
-                    sub.type = TransactionRecord::Generated;
-                      
-                    //TODO INTERFACE UPDATE
-                    sub.credit = nNet > 0 ? nNet : ((wtx.GetValueOut() - nDebit)/4)*3;
+                	sub.type = TransactionRecord::Generated;
 
-                    hashPrev = hash;
+                	//if the address is not yours then it means you have a tx sent to you in someone elses coinstake tx
+                	for (unsigned int i = 1; i < wtx.vout.size(); i++) {
+                		CTxDestination outAddress;
+                		if (ExtractDestination(wtx.vout[i].scriptPubKey, outAddress)) {
+                			if (IsMine(*wallet, outAddress)) {
+                				sub.address = CBitcoinAddress(outAddress).ToString();
+                				sub.credit = wtx.vout[i].nValue;
+                			} else {
+                				sub.credit = nNet > 0 ? nNet : ((wtx.GetValueOut() - nDebit)/4)*3;
+                			}
+                		}
+                	}
+
+                	hashPrev = hash;
                 }
 
                 parts.append(sub);

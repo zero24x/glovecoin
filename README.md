@@ -14,9 +14,9 @@ Ports: P2P 22064, RPC 22074
 
 Mining: PoS
 
-Coinbase maturity: 10 Blocks  
+Coinbase maturity: 20 Blocks  
 
-Min stake age: 1h until block 14 400 (1month), after that 12h 
+Min stake age: 1h until block 14 400 (~ 1 month), after that 12h 
 
 Max stake age: 3d
 

@@ -40,7 +40,7 @@ CTxMemPool mempool;
 map<uint256, CBlockIndex*> mapBlockIndex;
 set<pair<COutPoint, unsigned int> > setStakeSeen;
 
-CBigNum bnProofOfStakeLimit(~uint256(0) >> 48);
+CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);
 
 int nStakeMinConfirmations = 10;
 unsigned int nStakeMaxAge = 3 * (60 * 60 * 24); // 3 days
@@ -1019,7 +1019,7 @@ uint64_t GetProofOfStakeReward(int nHeight, uint64_t nCoinAge, int64_t nFees)
 		LogPrintf("GetProofOfStakeReward(): create=%s\n", FormatMoney(nSubsidy));
 	}
 
-	return nSubsidy + nFees;
+	return nSubsidy;
 }
 
 CBigNum GetWeightSpent(CBlockIndex* pindex)
@@ -1622,7 +1622,7 @@ bool CBlock::ConnectBlock(CTxDB& txdb, CBlockIndex* pindex, bool fJustCheck)
  
                               uint64_t nOutputGloveCoin = output.nValue;
 
-                            if (nOutputGloveCoin == (nCalculatedStakeReward / 4)) {
+                            if (nOutputGloveCoin == (nCalculatedStakeReward * 0.25)) {
 
                                 found = true;
                                 break;

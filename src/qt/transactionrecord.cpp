@@ -72,7 +72,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
                     sub.type = TransactionRecord::Generated;
                       
                     //TODO INTERFACE UPDATE
-                    sub.credit = nNet > 0 ? nNet : ((wtx.GetValueOut() - nDebit)/5)*4;
+                    sub.credit = nNet > 0 ? nNet : ((wtx.GetValueOut() - nDebit)/4)*3;
 
                     hashPrev = hash;
                 }

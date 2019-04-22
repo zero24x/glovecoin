@@ -1773,7 +1773,7 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
             if (nReward <= 0)
                 return false;
 
-            nFundReward = nReward / 4;
+            nFundReward = nReward * 0.25;
             // Take some reward away from us
             nReward = nReward - nFundReward;
 

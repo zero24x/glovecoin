@@ -62,7 +62,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
                     // Generated (proof-of-work)
                     sub.type = TransactionRecord::Generated;
                 }
-
+                if (wtx.IsCoinStake())
                 {
                 	// Generated (proof-of-stake)
 
